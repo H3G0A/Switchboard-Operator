@@ -4,6 +4,7 @@ public class BoardController : MonoBehaviour
 {
     [SerializeField] List<GameObject> _plucks = new(); 
     [SerializeField] List<GameObject> _hiddenConnectors = new();
+    [SerializeField] List<string> _labelIds = new();
     List<(GameObject connector, GameObject pluck)> _activeConnectors = new();
 
     [SerializeField] GameObject _connectorPrefab; 
@@ -129,6 +130,7 @@ public class BoardController : MonoBehaviour
         string label = Random.Range(0, 999999).ToString("D6");
         int id1 = 0; int id2 = 0; int id3 = 0; int id4 = 0; int id5 = 0; int id6 = 0;
 
+
         int digits12 = int.Parse(label.Substring(0, 2));
         if      ((digits12 >= 00 && digits12 <= 08) || (digits12 >= 55 && digits12 <= 64) || digits12 == 93)                     id1 = (int)City.Madrid;
         else if ((digits12 >= 31 && digits12 <= 40) || (digits12 >= 71 && digits12 <= 74) || (digits12 >= 94 && digits12 <= 99)) id1 = (int)City.Lebrija;
@@ -137,8 +139,8 @@ public class BoardController : MonoBehaviour
         else if ((digits12 >= 23 && digits12 <= 30) || (digits12 >= 47 && digits12 <= 54) || (digits12 >= 89 && digits12 <= 92)) id1 = (int)City.Toledo;
 
 
-        int digit3 = int.Parse(label.Substring(2, 1)); int digit3Parity = digit3 / 2;
-        int digit4 = int.Parse(label.Substring(3, 1)); int digit4Parity = digit4 / 2;
+        int digit3 = int.Parse(label.Substring(2, 1)); int digit3Parity = digit3 % 2;
+        int digit4 = int.Parse(label.Substring(3, 1)); int digit4Parity = digit4 % 2;
         if      (digit3Parity == 0 && digit4Parity != 0) id2 = 0; //Madrid-Sevilla  // Duplex         //Cadiz-Lebrija   //Adosado
         else if (digit3Parity != 0 && digit4Parity == 0) id2 = 1;                   // Apartamento                      // Chalet
         else if (digit3Parity == 0 && digit4Parity == 0) id2 = 2;                   // Chalet                           // Duplex
@@ -171,14 +173,21 @@ public class BoardController : MonoBehaviour
                       else if (sum <= 18) id4 = (int)Job.Cashier;}
 
 
-        int digit1 = int.Parse(label.Substring(0, 1)); int digit2 = int.Parse(label.Substring(0, 1)); int evenAmount = 0;
-        foreach (int digit in label.ToIntArray()) if (digit / 2 == 0) evenAmount++;
-        if ((digit1 - digit6 < 0) && (id4 == 2 || id4 == 0) || ((id4 == 1 || id4 == 5) && evenAmount >= 2) || (digit1 + digit2 + digit3 + digit4 + digit5 + digit6 >= 25 && (id4 == 3 || id4 == 4)) || (evenAmount >= 5)) id5 = (int)MaritalStatus.Divorced;
-        else if ((digit2 * digit5 < 40 && (id4 == 0 || id4 == 3)) || ((id4 == 4 || id4 == 5) && (CheckIfPrime(digit2))) || (true) || (true)) id5 = (int)MaritalStatus.Married;
-        else if ((true) || (true) || (true) || (true)) id5 = (int)MaritalStatus.Widowed;
+        int digit1 = int.Parse(label.Substring(0, 1)); int digit2 = int.Parse(label.Substring(0, 1)); int evenAmount = 0; int primeAmount = 0;
+        foreach (int digit in label.ToIntArray()) { if (digit % 2 == 0) evenAmount++; if (CheckIfPrime(digit)) primeAmount++; }
+
+        if      ((digit1 - digit6 < 0) && (id4 == (int)Job.Firefighter || id4 == (int)Job.Mechanic) || ((id4 == (int)Job.Professor || id4 == (int)Job.Cashier) && evenAmount >= 2) || (digit1 + digit2 + digit3 + digit4 + digit5 + digit6 >= 25 && (id4 == (int)Job.Baker || id4 == (int)Job.Police)) || (evenAmount >= 5)) id5 = (int)MaritalStatus.Divorced;
+        else if ((digit2 * digit5 < 40 && (id4 == (int)Job.Mechanic || id4 == (int)Job.Baker)) || ((id4 == (int)Job.Police || id4 == (int)Job.Cashier) && (CheckIfPrime(digit2))) || (digit4%3 == 0 && (id4 == (int)Job.Firefighter || id4 == (int)Job.Professor)) || (evenAmount <= 1))                                     id5 = (int)MaritalStatus.Married;
+        else if ((evenAmount == 6 || evenAmount == 0) || (primeAmount == 0 || primeAmount == 6) || (evenAmount == 3) || (primeAmount == 3))                                                                                                                                                                                  id5 = (int)MaritalStatus.Widowed;
         else id5 = (int)MaritalStatus.Single;
 
-        string labelId = "" + id1 + id2 + id3 + id4 + id5 + id6;
+
+        //if () id6 = (int)SocialClass.Low;
+        //else if (id4 == (int)Job.Mechanic && id4 == (int)MaritalStatus.Single) id6 = (int)SocialClass.Middle;
+        //else id6 = (int)SocialClass.High;
+
+
+        _labelIds.Add("" + id1 + id2 + id3 + id4 + id5 + id6);
     }
 
     private bool CheckIfPrime(int num)
