@@ -14,12 +14,12 @@ public class BoardController : MonoBehaviour
     [SerializeField] GameObject _currentReceiver; 
     [SerializeField] bool _enableBoard = false;
 
-    enum city {Madrid, Lebrija, Seville, Cadiz, Toledo}
-    enum home {Duplex, Apartment, Chalet, Terraced}
-    enum contract {Rented, Property}
-    enum job {Mechanic, Professor, Firefighter, Baker, Police, Cashier}
-    enum maritalStatus {Divorced, Married, Widowed, Single}
-    enum socialClass {Low, Middle, High}
+    enum City {Madrid, Lebrija, Seville, Cadiz, Toledo}
+    enum Home {Duplex, Apartment, Chalet, Terraced}
+    enum Contract {Rented, Property}
+    enum Job {Mechanic, Professor, Firefighter, Baker, Police, Cashier}
+    enum MaritalStatus {Divorced, Married, Widowed, Single}
+    enum SocialClass {Low, Middle, High}
     
     private void Start()
     {
@@ -130,11 +130,11 @@ public class BoardController : MonoBehaviour
         int id1 = 0; int id2 = 0; int id3 = 0; int id4 = 0; int id5 = 0; int id6 = 0;
 
         int digits12 = int.Parse(label.Substring(0, 2));
-        if      ((digits12 >= 00 && digits12 <= 08) || (digits12 >= 55 && digits12 <= 64) || digits12 == 93)                     id1 = 0; // Madrid
-        else if ((digits12 >= 31 && digits12 <= 40) || (digits12 >= 71 && digits12 <= 74) || (digits12 >= 94 && digits12 <= 99)) id1 = 1; // Lebrija
-        else if ((digits12 >= 16 && digits12 <= 22) || (digits12 >= 41 && digits12 <= 46) || (digits12 >= 82 && digits12 <= 88)) id1 = 2; // Sevilla
-        else if ((digits12 >= 09 && digits12 <= 15) || (digits12 >= 65 && digits12 <= 70) || (digits12 >= 75 && digits12 <= 81)) id1 = 3; // Cadiz
-        else if ((digits12 >= 23 && digits12 <= 30) || (digits12 >= 47 && digits12 <= 54) || (digits12 >= 89 && digits12 <= 92)) id1 = 4; // Toledo
+        if      ((digits12 >= 00 && digits12 <= 08) || (digits12 >= 55 && digits12 <= 64) || digits12 == 93)                     id1 = (int)City.Madrid;
+        else if ((digits12 >= 31 && digits12 <= 40) || (digits12 >= 71 && digits12 <= 74) || (digits12 >= 94 && digits12 <= 99)) id1 = (int)City.Lebrija;
+        else if ((digits12 >= 16 && digits12 <= 22) || (digits12 >= 41 && digits12 <= 46) || (digits12 >= 82 && digits12 <= 88)) id1 = (int)City.Seville;
+        else if ((digits12 >= 09 && digits12 <= 15) || (digits12 >= 65 && digits12 <= 70) || (digits12 >= 75 && digits12 <= 81)) id1 = (int)City.Cadiz;
+        else if ((digits12 >= 23 && digits12 <= 30) || (digits12 >= 47 && digits12 <= 54) || (digits12 >= 89 && digits12 <= 92)) id1 = (int)City.Toledo;
 
 
         int digit3 = int.Parse(label.Substring(2, 1)); int digit3Parity = digit3 / 2;
@@ -143,37 +143,46 @@ public class BoardController : MonoBehaviour
         else if (digit3Parity != 0 && digit4Parity == 0) id2 = 1;                   // Apartamento                      // Chalet
         else if (digit3Parity == 0 && digit4Parity == 0) id2 = 2;                   // Chalet                           // Duplex
         else if (digit3Parity != 0 && digit4Parity != 0) id2 = 3;                   // Adosado                          //Apartamento
-        if (id1 == 4 || id1 == 2) id2 += 4;
+        if (id1 == (int)City.Toledo || id1 == (int)City.Seville) id2 += 4;
 
 
-        int digit6 = int.Parse(label.Substring(5, 1)); bool isPrime = false;
-        if (digit6 == 2 || digit6 == 3 || digit6 == 5 || digit6 == 7) isPrime = true;
-        if (!isPrime) { if      (id1 == 1 || id1 == 4)               id3 = 0; // Alquiler
-                        else if (id2 == 1 || id2 == 3)               id3 = 1; // Propiedad
-                        else if (id2 != 1 && id2 != 3)               id3 = 0;
-                        else if (id1 == 2 && id2 != 2)               id3 = 1;
-                        else if (id2 == 2)                           id3 = 0;
-                        else                                         id3 = 1;}
+        int digit6 = int.Parse(label.Substring(5, 1));
+        if (!CheckIfPrime(digit6)){ if      (id1 == (int)City.Lebrija || id1 == (int)City.Toledo)                           id3 = (int)Contract.Rented;
+                                    else if (id2 == 1 || id2 == 3)                                                          id3 = (int)Contract.Property;
+                                    else if (id2 != 1 && id2 != 3)                                                          id3 = (int)Contract.Rented;
+                                    else if (id1 == (int)City.Seville && id2 != 2)                                          id3 = (int)Contract.Property;
+                                    else if (id2 == 2)                                                                      id3 = (int)Contract.Rented;
+                                    else                                                                                    id3 = (int)Contract.Property;}
 
-        else          { if      (id2 == 0 || id2 == 6)               id3 = 1;
-                        else if (id2 != 3 && (id1 == 0 || id1 == 2)) id3 = 0;
-                        else if (id1 == 1 || id1 == 3 || id1 == 4)   id3 = 1;
-                        else                                         id3 = 0;}
+        else                      { if      (id2 == 0 || id2 == 6)                                                          id3 = (int)Contract.Property;
+                                    else if (id2 != 3 && (id1 == (int)City.Madrid || id1 == (int)City.Seville))             id3 = (int)Contract.Rented;
+                                    else if (id1 == (int)City.Lebrija || id1 == (int)City.Cadiz || id1 == (int)City.Toledo) id3 = (int)Contract.Property;
+                                    else                                                                                    id3 = (int)Contract.Rented;}
 
 
         int digit5 = int.Parse(label.Substring(4, 1)); 
         int sub = digit3 - digit5; int sum = digit4 - digit6;
-        if(sub < 0) { if      (sum <= 6)  id4 = 0;  // Mecanico
-                      else if (sum <= 11) id4 = 1;  // Profesor
-                      else if (sum <= 18) id4 = 2;} // Bombero
+        if(sub < 0) { if      (sum <= 6)  id4 = (int)Job.Mechanic;
+                      else if (sum <= 11) id4 = (int)Job.Professor;
+                      else if (sum <= 18) id4 = (int)Job.Firefighter;}
 
-        else        { if      (sum <= 4)  id4 = 3;  // Panadero
-                      else if (sum <= 9)  id4 = 4;  // Policia
-                      else if (sum <= 18) id4 = 5;} // Cajero
+        else        { if      (sum <= 4)  id4 = (int)Job.Baker;  
+                      else if (sum <= 9)  id4 = (int)Job.Police;  
+                      else if (sum <= 18) id4 = (int)Job.Cashier;}
 
 
-        int digit1 = int.Parse(label.Substring(0, 1));
+        int digit1 = int.Parse(label.Substring(0, 1)); int digit2 = int.Parse(label.Substring(0, 1)); int evenAmount = 0;
+        foreach (int digit in label.ToIntArray()) if (digit / 2 == 0) evenAmount++;
+        if ((digit1 - digit6 < 0) && (id4 == 2 || id4 == 0) || ((id4 == 1 || id4 == 5) && evenAmount >= 2) || (digit1 + digit2 + digit3 + digit4 + digit5 + digit6 >= 25 && (id4 == 3 || id4 == 4)) || (evenAmount >= 5)) id5 = (int)MaritalStatus.Divorced;
+        else if ((digit2 * digit5 < 40 && (id4 == 0 || id4 == 3)) || ((id4 == 4 || id4 == 5) && (CheckIfPrime(digit2))) || (true) || (true)) id5 = (int)MaritalStatus.Married;
+        else if ((true) || (true) || (true) || (true)) id5 = (int)MaritalStatus.Widowed;
+        else id5 = (int)MaritalStatus.Single;
 
         string labelId = "" + id1 + id2 + id3 + id4 + id5 + id6;
+    }
+
+    private bool CheckIfPrime(int num)
+    {
+        if (num == 2 || num == 3 || num == 5 || num == 7) return true; else return false;
     }
 }
