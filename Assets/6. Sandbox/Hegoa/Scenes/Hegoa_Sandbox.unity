@@ -190,6 +190,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1511389197 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7934273054222570715, guid: e9e28da6202631f489fd66165f456f86, type: 3}
+  m_PrefabInstance: {fileID: 5482325196184662239}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24e06eedba0523542ace63ea14c85e90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1654298933
 GameObject:
   m_ObjectHideFlags: 0
@@ -337,6 +348,18 @@ PrefabInstance:
     - target: {fileID: 399930661021196215, guid: e9e28da6202631f489fd66165f456f86, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 737678170728514698, guid: e9e28da6202631f489fd66165f456f86, type: 3}
+      propertyPath: m_text
+      value: confirm
+      objectReference: {fileID: 0}
+    - target: {fileID: 737678170728514698, guid: e9e28da6202631f489fd66165f456f86, type: 3}
+      propertyPath: m_fontSize
+      value: 18.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 737678170728514698, guid: e9e28da6202631f489fd66165f456f86, type: 3}
+      propertyPath: m_fontStyle
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 895885112016987937, guid: e9e28da6202631f489fd66165f456f86, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -513,6 +536,22 @@ PrefabInstance:
     - target: {fileID: 2139319211384399311, guid: e9e28da6202631f489fd66165f456f86, type: 3}
       propertyPath: m_text
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2265920274857580515, guid: e9e28da6202631f489fd66165f456f86, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1511389197}
+    - target: {fileID: 2265920274857580515, guid: e9e28da6202631f489fd66165f456f86, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ConfirmSelection
+      objectReference: {fileID: 0}
+    - target: {fileID: 2265920274857580515, guid: e9e28da6202631f489fd66165f456f86, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: BoardController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2265920274857580515, guid: e9e28da6202631f489fd66165f456f86, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 2629992658192374269, guid: e9e28da6202631f489fd66165f456f86, type: 3}
       propertyPath: m_text

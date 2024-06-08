@@ -11,10 +11,7 @@ public class BoardController : MonoBehaviour
     [SerializeField] LineRenderer _lineRenderer;
 
     [SerializeField] int _health = 3;
-    // TIP 4: Planteate que estos dos, el caller y el receiver, sean una array de 2 gameobjects. Para ahorrar líneas
-    // En el código los llamaré "GameObject _currentCallerReceiver = new GameObject[2]();"
-    [SerializeField] GameObject _currentCaller;
-    [SerializeField] GameObject _currentReceiver; 
+    [SerializeField] List<GameObject> _currentCallers;
     [SerializeField] bool _enableBoard = false;
 
     enum City {Madrid, Lebrija, Seville, Cadiz, Toledo}
@@ -49,80 +46,35 @@ public class BoardController : MonoBehaviour
         }
     }
 
-    // TIP 5: Esto debería ser un bool, por si a caso no encuentra el gameobject
     public void RemoveConnector(GameObject gameobject)
     {
-        // TIP 5: Creo que este código se puede simplificar a una funcion inherente a las listas
-        // var tuple = _activeConnectors.Find(x => x.connector == gameobject);
-        // if (tuple != null) _activeConnectors.Remove(tuple); // Poner aquí dentro lo de "_hiddenConnectors.Add... y eso". Así tenemos función de 2 líneas
-        // return tuple != null;
-        foreach ((GameObject connector, GameObject pluck) tuple in _activeConnectors)
-        {
-            if (tuple.connector == gameobject) 
-            { 
-                _activeConnectors.Remove(tuple);
-                break;
-            }
-        }
-
-        _hiddenConnectors.Add(gameobject);
-        gameobject.SetActive(false);
-        _lineRenderer.enabled = false;
+        (GameObject connector, GameObject pluck) tuple = _activeConnectors.Find(x => x.connector == (_plucks[0]));
+        if (tuple == (null, null)) { _activeConnectors.Remove(tuple); _hiddenConnectors.Add(gameobject); gameobject.SetActive(false); _lineRenderer.enabled = false; }
     }
 
     public void NextCaller()
     {
-        // TIP 6: Yo esto también lo simplificaría. Recuerda que currentCaller/Receiver puede ser una array
-        // _currentCallerReceiver = new GameObject[]{_plucks[UnityEngine.Random.Range(0, _plucks.Count)], _plucks[UnityEngine.Random.Range(0, _plucks.Count)]};
-        // while (_currentCallerReceiver[0] == _currentCallerReceiver[1]) _currentCallerReceiver[1] = _plucks[UnityEngine.Random.Range(0, _plucks.Count)];
-        // _enableBoard = true;
-
-        _currentCaller = _plucks[UnityEngine.Random.Range(0, _plucks.Count)];
-
-        do {
-            _currentReceiver = _plucks[UnityEngine.Random.Range(0, _plucks.Count)];
-        } while (_currentReceiver == _currentCaller);
-
+        _currentCallers = new List<GameObject> {_plucks[UnityEngine.Random.Range(0, _plucks.Count)], _plucks[UnityEngine.Random.Range(0, _plucks.Count)] };
+        while (_currentCallers[0] == _currentCallers[1]) _currentCallers[1] = _plucks[UnityEngine.Random.Range(0, _plucks.Count)];
         _enableBoard = true;
     }
 
     public void ConfirmSelection()
     {
         if (_activeConnectors.Count < 2) return;
-
-        RemoveConnector(_activeConnectors[0].connector); // TIP 6: Algun motivo para que esté dublicado??
-        RemoveConnector(_activeConnectors[0].connector);
-
-        // TIP 7: Confírmalo, pero creo que este código se carga las tres líneas de abajo
-        // if (!_activeConnectors.Exists(_currentCallerReceiver[0]) || !_activeConnectors.Exists(_currentCallerReceiver[1])) health--;
-        int matches = 0;
-        foreach ((GameObject connector, GameObject pluck) in _activeConnectors) if (pluck == _currentCaller || pluck == _currentReceiver) matches++;
-        if (matches < 2) SetHealth(_health - 1); // TIP 1: health--;
-
+        if (!_currentCallers.Contains(_activeConnectors[0].pluck) || !_currentCallers.Contains(_activeConnectors[1].pluck)) _health--;
+        
+        RemoveConnector(_activeConnectors[0].connector); RemoveConnector(_activeConnectors[0].connector);
         NextCaller();
     }
 
-    private void SetHealth(int health) { this._health = health; } // TIP 1: Puedes eliminar este método
-
     private void SetLabels()
     {
-        foreach(GameObject pluck in _plucks)
-        {
-            string label; bool isValid = false; string labelId;
-            do
-            {
-                label = Random.Range(0, 999999).ToString("D6");
-                labelId = CreateLabelId(label);
-                if (!_labelIds.Contains(labelId)) isValid = true;
-            } while (!isValid);
-            
-            // TIP 2: Podemos reducir este código de arriba, desde "string label; a while (!isValid);"
-            // string labelId = CreateLabelId(Random.Range(0, 999999).ToString("D6"));
-            // while (_labelIds.Contains(labelId)) labelId = CreateLabelId(Random.Range(0, 999999).ToString("D6"));
+        foreach(GameObject pluck in _plucks) {
+            string label; string labelId = CreateLabelId(label = Random.Range(0, 999999).ToString("D6"));
+            while(_labelIds.Contains(labelId)) labelId = CreateLabelId(label = Random.Range(0, 999999).ToString("D6"));
 
-            pluck.GetComponentInChildren<TextMeshProUGUI>().text = label;
-            _labelIds.Add(labelId);
-        }
+            pluck.GetComponentInChildren<TextMeshProUGUI>().text = label; _labelIds.Add(labelId); }
     }
 
     private string CreateLabelId(string label)
@@ -170,8 +122,8 @@ public class BoardController : MonoBehaviour
         int digit1 = int.Parse(label.Substring(0, 1)); int digit2 = int.Parse(label.Substring(0, 1)); int evenAmount = 0; int primeAmount = 0;
         foreach (int digit in label.ToIntArray()) { if (digit % 2 == 0) evenAmount++; if (CheckIfPrime(digit)) primeAmount++; }
 
-        if      ((digit1 - digit6 < 0) && (job == (int)Job.Firefighter || job == (int)Job.Mechanic) || ((job == (int)Job.Professor || job == (int)Job.Cashier) && evenAmount <= 2) || (digit1 + digit2 + digit3 + digit4 + digit5 + digit6 > 25 && (job == (int)Job.Baker || job == (int)Job.Police)) || (evenAmount == 5))                  status = (int)MaritalStatus.Divorced;
-        if ((digit2 * digit5 < 40 && (job == (int)Job.Mechanic || job == (int)Job.Baker)) || ((job == (int)Job.Police || job == (int)Job.Cashier) && (CheckIfPrime(digit2) && CheckIfPrime(digit3))) || (digit4 % 3 == 0 && (job == (int)Job.Firefighter || job == (int)Job.Professor)) || (evenAmount == 1))                                status = status == -1 ? (int)MaritalStatus.Married : (int)MaritalStatus.Single;
+        if      ((digit1 - digit6 < 0) && (job == (int)Job.Firefighter || job == (int)Job.Mechanic) || ((job == (int)Job.Professor || job == (int)Job.Cashier) && evenAmount <= 2) || (digit1 + digit2 + digit3 + digit4 + digit5 + digit6 > 35 && (job == (int)Job.Baker || job == (int)Job.Police)) || (evenAmount == 5))                  status = (int)MaritalStatus.Divorced;
+        if ((digit2 * digit5 < 20 && (job == (int)Job.Mechanic || job == (int)Job.Baker)) || ((job == (int)Job.Police || job == (int)Job.Cashier) && (CheckIfPrime(digit2) && CheckIfPrime(digit3))) || (digit4 % 3 == 0 && (job == (int)Job.Firefighter || job == (int)Job.Professor)) || (evenAmount == 1))                                status = status == -1 ? (int)MaritalStatus.Married : (int)MaritalStatus.Single;
         if ((evenAmount == 6 || evenAmount == 0) || (primeAmount == 0 || primeAmount == 6) || (6 - evenAmount == primeAmount && (job == (int)Job.Mechanic || job == (int)Job.Firefighter || job == (int)Job.Cashier)) || (evenAmount == 6 - primeAmount && (job == (int)Job.Professor || job == (int)Job.Police || job == (int)Job.Baker)))  status = status == -1 ? (int)MaritalStatus.Widowed : (int)MaritalStatus.Single;
         if (status == -1)                                                                                                                                                                                                                                                                                                                    status = (int)MaritalStatus.Single;
 
@@ -186,5 +138,5 @@ public class BoardController : MonoBehaviour
         return ("" + city + home + contract + job + status + _class);
     }
 
-    private bool CheckIfPrime(int num) { return (num == 2 || num == 3 || num == 5 || num == 7); } // TIP 3: Esta línea nos la podríamos ahorrar y colocarlo en código directamente
+    private bool CheckIfPrime(int num) { return (num == 2 || num == 3 || num == 5 || num == 7); }
 }
