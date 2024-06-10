@@ -7,7 +7,6 @@ public class BoardController : MonoBehaviour
     [SerializeField] List<string> _labelIds = new();
     List<(GameObject connector, GameObject pluck)> _activeConnectors = new();
 
-    [SerializeField] GameObject _connectorPrefab; 
     [SerializeField] LineRenderer _lineRenderer;
 
     [SerializeField] int _health = 3;
@@ -46,10 +45,10 @@ public class BoardController : MonoBehaviour
         }
     }
 
-    public void RemoveConnector(GameObject gameobject)
+    public void RemoveConnector(GameObject go)
     {
-        (GameObject connector, GameObject pluck) tuple = _activeConnectors.Find(x => x.connector == (_plucks[0]));
-        if (tuple == (null, null)) { _activeConnectors.Remove(tuple); _hiddenConnectors.Add(gameobject); gameobject.SetActive(false); _lineRenderer.enabled = false; }
+        (GameObject connector, GameObject pluck) tuple = _activeConnectors.Find(x => x.connector == (go));
+        if (tuple != (null, null)) { _activeConnectors.Remove(tuple); _hiddenConnectors.Add(go); go.SetActive(false); _lineRenderer.enabled = false; }
     }
 
     public void NextCaller()
@@ -64,8 +63,7 @@ public class BoardController : MonoBehaviour
         if (_activeConnectors.Count < 2) return;
         if (!_currentCallers.Contains(_activeConnectors[0].pluck) || !_currentCallers.Contains(_activeConnectors[1].pluck)) _health--;
         
-        RemoveConnector(_activeConnectors[0].connector); RemoveConnector(_activeConnectors[0].connector);
-        NextCaller();
+        RemoveConnector(_activeConnectors[0].connector); RemoveConnector(_activeConnectors[0].connector); NextCaller();
     }
 
     private void SetLabels()
