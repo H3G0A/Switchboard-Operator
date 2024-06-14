@@ -127,8 +127,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1120
-      y: 1092
+      x: 1932
+      y: 4
       width: 0
       height: 0
     spriteID: 74f6ec6b8a817f041b3f19f75a6822fb
@@ -139,7 +139,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 1120, y: 1092}
+    uvTransform: {x: 1932, y: 4}
     spritePosition: {x: 0, y: 1080}
   - name: Background
     originalName: 
@@ -214,7 +214,7 @@ ScriptedImporter:
     parentIndex: -1
     spriteID: 74f6ec6b8a817f041b3f19f75a6822fb
     layerID: 363
-    mosaicPosition: {x: 1120, y: 1092}
+    mosaicPosition: {x: 1932, y: 4}
     flatten: 0
     isImported: 1
     isVisible: 1

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 18dd1bbb390778d4e84a438698ae593f
+guid: 201cd6d4f6315b3408c06b25db547552
 importerOverride:
   nativeImporterType: 2089858483
   scriptedImporterType:
@@ -110,7 +110,7 @@ ScriptedImporter:
       y: 4
       width: 535
       height: 775
-    spriteID: a1173e9ad5c876b40a5ea8e60791a351
+    spriteID: fc9f3afacae423d4fb25de01371e96f6
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -119,7 +119,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-    spritePosition: {x: 1055, y: 232}
+    spritePosition: {x: 993, y: 232}
   characterData:
     bones: []
     parts: []
@@ -160,7 +160,7 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: -1
-    spriteID: 697859d26e8584146bfeb1bc235360cb
+    spriteID: bc41b740fbaa5454880bce1bb4b7bc08
     layerID: 275
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
@@ -170,8 +170,8 @@ ScriptedImporter:
     spriteName: Page 15
     isGroup: 0
     parentIndex: 0
-    spriteID: a1173e9ad5c876b40a5ea8e60791a351
-    layerID: 655
+    spriteID: fc9f3afacae423d4fb25de01371e96f6
+    layerID: 668
     mosaicPosition: {x: 4, y: 4}
     flatten: 0
     isImported: 1

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7ff601b25e641bf4e9d24b24bced93f1
+guid: f173c119434868c43a25fc3159123272
 importerOverride:
   nativeImporterType: 2089858483
   scriptedImporterType:
@@ -99,7 +99,7 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: Page 2.1
+  - name: Click to continue...
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -108,9 +108,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 535
-      height: 775
-    spriteID: c060f00ec6c62b749988172b22fbba8f
+      width: 1920
+      height: 1080
+    spriteID: 2d5aceed3e0eb654ca7df4b53723179c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -119,7 +119,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-    spritePosition: {x: 172, y: 232}
+    spritePosition: {x: 0, y: 0}
   characterData:
     bones: []
     parts: []
@@ -156,22 +156,12 @@ ScriptedImporter:
   resliceFromLayer: 0
   mosaicPSDLayers: []
   rigPSDLayers:
-  - name: Manual
-    spriteName: 
-    isGroup: 1
-    parentIndex: -1
-    spriteID: cd1293a44e52ce045b863ab80c303f38
-    layerID: 275
-    mosaicPosition: {x: 0, y: 0}
-    flatten: 0
-    isImported: 0
-    isVisible: 1
-  - name: Page 2.1
-    spriteName: Page 2.1
+  - name: Click to continue...
+    spriteName: Click to continue...
     isGroup: 0
-    parentIndex: 0
-    spriteID: c060f00ec6c62b749988172b22fbba8f
-    layerID: 640
+    parentIndex: -1
+    spriteID: 2d5aceed3e0eb654ca7df4b53723179c
+    layerID: 585
     mosaicPosition: {x: 4, y: 4}
     flatten: 0
     isImported: 1

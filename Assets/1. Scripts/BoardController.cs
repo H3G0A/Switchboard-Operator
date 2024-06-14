@@ -66,7 +66,7 @@ public class BoardController : MonoBehaviour
     public void NextCaller()
     {
         _panelText.text = ""; _dialogueText.text = "";
-        for(int i = 0; i < 3 - _health; i++) { _lives[i].color = Color.black; }
+        for (int i = 0; i < 3 - _health; i++) { _lives[i].color = Color.black; }
         if (_activeConnectors.Count == 2) { RemoveConnector(_activeConnectors[0].connector); RemoveConnector(_activeConnectors[0].connector); }
         if (_health <= 0) { _gameOverScreen.SetActive(true); gameObject.SetActive(false); return; } else if (_roundsToWin <= 0) { _victoryScreen.SetActive(true); gameObject.SetActive(false); return; }
         StartCoroutine(TransitionToNextCaller());
@@ -74,7 +74,7 @@ public class BoardController : MonoBehaviour
 
     public void ConfirmSelection()
     {
-        if (_activeConnectors.Count < 2) return; GetComponent<AudioSource>().Stop(); _introAudioSource.Stop();
+        if (_activeConnectors.Count < 2) return; _introAudioSource.Stop();
         if (!_currentCallers.Exists(x => x.pluck == _activeConnectors[0].pluck) || !_currentCallers.Exists(x => x.pluck == _activeConnectors[1].pluck)) { _health--; GetComponent<AudioSource>().PlayOneShot(_incorrectAudio, 1.3f); } else GetComponent<AudioSource>().PlayOneShot(_correctAudio, 2f);
         StopCoroutine(_countDown); NextCaller();
     }
@@ -157,7 +157,7 @@ public class BoardController : MonoBehaviour
             timerDelta -= .01f;
             _timerBar.fillAmount = timerDelta / _timer;
         }
-        _health--; NextCaller();
+        _health--; GetComponent<AudioSource>().Stop(); GetComponent<AudioSource>().PlayOneShot(_incorrectAudio, 1.3f); NextCaller(); 
     }
 
     private IEnumerator TransitionToNextCaller()
