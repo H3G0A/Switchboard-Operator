@@ -67,7 +67,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8b17857a1d0243d4cb0b898b3debb2aa, type: 3}
+  m_Sprite: {fileID: -849572019739230112, guid: f173c119434868c43a25fc3159123272, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -485,8 +485,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 97f6fee55a02d4d4ea3e38a0e38c00ad, type: 3}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 4fd7a868d3a73774aa9a45a433f410cf, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 0
@@ -584,7 +584,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 808943919033176370}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: c5e5a95e0e79f3b40ab37cd21b746941, type: 2}
   m_CullingMode: 0
@@ -1200,6 +1200,8 @@ MonoBehaviour:
   _victoryScreen: {fileID: 194853722775980656}
   _phoneRingingAudio: {fileID: 8300000, guid: 4d1e884e2e23e7a4ba8c3c68692a3245, type: 3}
   _personSpeakingAudio: {fileID: 8300000, guid: f548698a0143bea4883ee1e899f0209b, type: 3}
+  _correctAudio: {fileID: 8300000, guid: 319134f17bd897349af30a34e8eb10a6, type: 3}
+  _incorrectAudio: {fileID: 8300000, guid: 15f17a4444da7af49a0383e7e076c9eb, type: 3}
   _introAudioSource: {fileID: 6331855389759160356}
   _health: 3
   _timer: 600
@@ -1935,8 +1937,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 97f6fee55a02d4d4ea3e38a0e38c00ad, type: 3}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 4fd7a868d3a73774aa9a45a433f410cf, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 0
@@ -2352,8 +2354,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 97f6fee55a02d4d4ea3e38a0e38c00ad, type: 3}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 4fd7a868d3a73774aa9a45a433f410cf, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 0
@@ -2482,6 +2484,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Flickering
+          m_BoolArgument: 1
+        m_CallState: 2
       - m_Target: {fileID: 1350974271666542141}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -2494,7 +2508,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 808943919033176370}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -2504,7 +2518,31 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1480329865034927661}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Stop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1480329865034927661}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: PlayOneShot
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: 75fab46073f59df489332c4913efd2e1, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!1 &5735371013077235302
 GameObject:
@@ -2843,7 +2881,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_TargetDisplay: 0
 --- !u!114 &4497754552639305886
 MonoBehaviour:
@@ -3694,8 +3732,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -27.319946, y: 0}
+  m_SizeDelta: {x: 47.06, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5076304887429544431
 CanvasRenderer:
