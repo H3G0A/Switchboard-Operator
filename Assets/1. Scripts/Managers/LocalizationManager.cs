@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class LocalizationManager : MonoBehaviour
 {
+    bool _localizationHasFinished = false;
+
     private void Awake()
     {
         DontDestroyOnLoad(gameObject);
@@ -18,12 +20,19 @@ public class LocalizationManager : MonoBehaviour
 
     public void LoadScene(string scene)
     {
-        SceneManager.LoadScene(scene);
+        StartCoroutine(LoadDelay(scene));
     }
 
     IEnumerator SetLocale(int localeID)
     {
         yield return LocalizationSettings.InitializationOperation;
         LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[localeID];
+        _localizationHasFinished = true;
+    }
+
+    IEnumerator LoadDelay(string scene)
+    {
+        while (_localizationHasFinished == false) yield return null;
+        SceneManager.LoadScene(scene);
     }
 }
