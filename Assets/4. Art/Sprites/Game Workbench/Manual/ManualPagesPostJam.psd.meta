@@ -1,0 +1,7370 @@
+fileFormatVersion: 2
+guid: e496254766b6c584fb8f2be370c817ca
+importerOverride:
+  nativeImporterType: 2089858483
+  scriptedImporterType:
+    serializedVersion: 2
+    Hash: b10b55a1aa6a1aa32521bc0cab59632e
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: Title
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3097
+      y: 1011
+      width: 149
+      height: 48
+    spriteID: c784240dcd8435742bbbfb07f524df9d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3097, y: 1011}
+    spritePosition: {x: 1128, y: 922}
+  - name: Instructions
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3994
+      width: 430
+      height: 87
+    spriteID: ab1f7036f3323314b8296801339702f5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3994}
+    spritePosition: {x: 1129, y: 793}
+  - name: Forma 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2113
+      y: 3555
+      width: 4
+      height: 251
+    spriteID: 003d41aba1d7f03479ad277658084555
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2112, y: 3553}
+    spritePosition: {x: 1476, y: 485}
+  - name: Forma 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2113
+      y: 3814
+      width: 4
+      height: 251
+    spriteID: 15de58db3ea4c904ca51201bde799e8f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2112, y: 3812}
+    spritePosition: {x: 1376, y: 484}
+  - name: Forma 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2125
+      y: 3555
+      width: 4
+      height: 251
+    spriteID: 5c48971469e04d74d9d627e3ef52665b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2124, y: 3553}
+    spritePosition: {x: 1270, y: 484}
+  - name: Toledo          23-30      47-54      89-92
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3567
+      y: 520
+      width: 392
+      height: 16
+    spriteID: ac60582afbddb4d43bc1e0a73a2a6950
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3567, y: 520}
+    spritePosition: {x: 1163, y: 502}
+  - name: "C\xE1diz           09-15       65-70      75-81"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3567
+      y: 640
+      width: 383
+      height: 16
+    spriteID: 131a70cd1ab4f6248861a0e66c23cf26
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3567, y: 640}
+    spritePosition: {x: 1170, y: 553}
+  - name: Sevilla          16-22       41-46     82-88
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3567
+      y: 568
+      width: 390
+      height: 16
+    spriteID: ecc98d23a5ada094b8ea0ebf267d9eec
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3567, y: 568}
+    spritePosition: {x: 1164, y: 603}
+  - name: Lebrija          31-40       71-74      94-99
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3097
+      y: 725
+      width: 394
+      height: 23
+    spriteID: 13602447464143a46b435e052a544184
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3097, y: 725}
+    spritePosition: {x: 1163, y: 643}
+  - name: Madrid          00-08      55-64         93
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3567
+      y: 738
+      width: 377
+      height: 16
+    spriteID: aa0ba4c6bf749c64a8efb262e977c231
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3567, y: 738}
+    spritePosition: {x: 1161, y: 700}
+  - name: Forma 1 copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 543
+      y: 3962
+      width: 451
+      height: 52
+    spriteID: bbf2ef5979494964ca41442145a5a9b8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 542, y: 3961}
+    spritePosition: {x: 1127, y: 634}
+  - name: Forma 1 copy 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 543
+      y: 4022
+      width: 451
+      height: 52
+    spriteID: 4c1af2a1937f36747bc553b032298641
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 542, y: 4021}
+    spritePosition: {x: 1127, y: 584}
+  - name: Forma 1 copy 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1082
+      y: 3899
+      width: 451
+      height: 52
+    spriteID: 0e95543ca4bdac84fa28dcb0000667a4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1081, y: 3898}
+    spritePosition: {x: 1127, y: 534}
+  - name: Forma 1 copy 4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1082
+      y: 3959
+      width: 451
+      height: 52
+    spriteID: 81297c2a79429e44489c37b411e29683
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1081, y: 3958}
+    spritePosition: {x: 1127, y: 484}
+  - name: Forma 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1082
+      y: 4019
+      width: 451
+      height: 52
+    spriteID: 859759717e4fa9c419987bde805abb37
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1081, y: 4018}
+    spritePosition: {x: 1127, y: 684}
+  - name: Instructions
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 543
+      y: 3899
+      width: 435
+      height: 55
+    spriteID: 1b3cbee35e5764445919336dd844ae4d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 543, y: 3899}
+    spritePosition: {x: 1128, y: 395}
+  - name: Page
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 531
+      height: 771
+    spriteID: 29dca9cd127633040a68a116f567a5c7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 1085, y: 237}
+  - name: Title
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3380
+      y: 670
+      width: 148
+      height: 47
+    spriteID: de2c09a2374da6c46ac67d6b7e5e6dc2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3380, y: 670}
+    spritePosition: {x: 92, y: 920}
+  - name: Instructions
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3899
+      width: 438
+      height: 87
+    spriteID: 5e507f3839899ed48a97ba288ad17224
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3899}
+    spritePosition: {x: 92, y: 790}
+  - name: Forma 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2125
+      y: 3814
+      width: 4
+      height: 251
+    spriteID: 9c6ad0507cc79b742be0b40de9685237
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2124, y: 3812}
+    spritePosition: {x: 440, y: 482}
+  - name: Forma 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2137
+      y: 3555
+      width: 4
+      height: 251
+    spriteID: 955b076710181ff44b0783cf74adb2cb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2136, y: 3553}
+    spritePosition: {x: 340, y: 481}
+  - name: Forma 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2137
+      y: 3814
+      width: 4
+      height: 251
+    spriteID: 8227eb1766194c444b8b8bccc0a191e3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2136, y: 3812}
+    spritePosition: {x: 234, y: 481}
+  - name: Toledo          23-30      47-54      89-92
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3567
+      y: 544
+      width: 392
+      height: 16
+    spriteID: 9dec26dd1da375b45a7cb365b112bf76
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3567, y: 544}
+    spritePosition: {x: 127, y: 499}
+  - name: "C\xE1diz           09-15       65-70      75-81"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3567
+      y: 664
+      width: 383
+      height: 16
+    spriteID: a498c6fabbf651541ba5a9adc4c78a5f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3567, y: 664}
+    spritePosition: {x: 134, y: 550}
+  - name: Sevilla          16-22       41-46     82-88
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3567
+      y: 592
+      width: 390
+      height: 16
+    spriteID: 8f081692a88e6f148a5c5180a6b653de
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3567, y: 592}
+    spritePosition: {x: 128, y: 600}
+  - name: Lebrija          31-40       71-74      94-99
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3097
+      y: 756
+      width: 394
+      height: 23
+    spriteID: 0f58f72e8381ef74581b820775a5445c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3097, y: 756}
+    spritePosition: {x: 127, y: 640}
+  - name: Madrid          00-08      55-64         93
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3567
+      y: 762
+      width: 377
+      height: 16
+    spriteID: e0341a284038240489f6a16d73558af0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3567, y: 762}
+    spritePosition: {x: 125, y: 697}
+  - name: Forma 1 copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2637
+      y: 1198
+      width: 451
+      height: 52
+    spriteID: 6c99e21d721cbe54b93750a79c033253
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2636, y: 1197}
+    spritePosition: {x: 91, y: 631}
+  - name: Forma 1 copy 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2637
+      y: 1258
+      width: 451
+      height: 52
+    spriteID: 12567c6966cd56743bb21fbdae299d62
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2636, y: 1257}
+    spritePosition: {x: 91, y: 581}
+  - name: Forma 1 copy 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2637
+      y: 1318
+      width: 451
+      height: 52
+    spriteID: 894e2643a2db96f4cb956e4bbf44bc50
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2636, y: 1317}
+    spritePosition: {x: 91, y: 531}
+  - name: Forma 1 copy 4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2637
+      y: 1378
+      width: 451
+      height: 52
+    spriteID: f90134292f1cac54ba216072f0b51eb4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2636, y: 1377}
+    spritePosition: {x: 91, y: 481}
+  - name: Forma 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2637
+      y: 1438
+      width: 451
+      height: 52
+    spriteID: 2a138f3889418f542b42ef6e698c1e4a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2636, y: 1437}
+    spritePosition: {x: 91, y: 681}
+  - name: Instructions
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3567
+      y: 4
+      width: 467
+      height: 49
+    spriteID: ec732948b6c18a2479c63cf4e0e3521c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3567, y: 4}
+    spritePosition: {x: 92, y: 398}
+  - name: Page
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 783
+      width: 531
+      height: 771
+    spriteID: 1bfe378f3951c6048ac616d1a54f3f2e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 783}
+    spritePosition: {x: 49, y: 234}
+  - name: Title
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3097
+      y: 787
+      width: 182
+      height: 48
+    spriteID: f08b33e8dc1211646bc0a3ecdad78126
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3097, y: 787}
+    spritePosition: {x: 1022, y: 920}
+  - name: Instructions
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3097
+      y: 224
+      width: 455
+      height: 213
+    spriteID: 6ece56a140caf1a4abde11d1c8403334
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3097, y: 224}
+    spritePosition: {x: 1022, y: 674}
+  - name: Forma 2 copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2623
+      y: 2386
+      width: 4
+      height: 251
+    spriteID: d9f71fdb5ef90b64a8de274dd8c1b4e6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2622, y: 2384}
+    spritePosition: {x: 1320, y: 376}
+  - name: Forma 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2623
+      y: 2645
+      width: 4
+      height: 251
+    spriteID: 9efee7d09a227cd4c8411a0ef5caf26d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2622, y: 2643}
+    spritePosition: {x: 1160, y: 376}
+  - name: "IMPAR            IMPAR            MANSI\xD3N"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3567
+      y: 123
+      width: 385
+      height: 22
+    spriteID: b57bdb1800d797240b0b3da984e69e5b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3567, y: 123}
+    spritePosition: {x: 1059, y: 392}
+  - name: PAR                PAR            BUNGALOW
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3567
+      y: 295
+      width: 386
+      height: 17
+    spriteID: c9c05a51ce7521340a5bd2ba77c80b08
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3567, y: 295}
+    spritePosition: {x: 1068, y: 444}
+  - name: IMPAR              PAR                FLAT
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3567
+      y: 346
+      width: 362
+      height: 18
+    spriteID: 37190273c9acbed4b9895975629c5281
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3567, y: 346}
+    spritePosition: {x: 1060, y: 493}
+  - name: PAR              IMPAR            DUPLEX
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3567
+      y: 397
+      width: 360
+      height: 18
+    spriteID: ee6a7cfd35801414aa78bbfa5bcc0841
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3567, y: 397}
+    spritePosition: {x: 1072, y: 544}
+  - name: "3r d\xEDgito       4to d\xEDgito           CASA"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3567
+      y: 61
+      width: 376
+      height: 23
+    spriteID: 91bc4d124bfc4c2458c3b2b3748a7d7c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3567, y: 61}
+    spritePosition: {x: 1044, y: 587}
+  - name: Forma 1 copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2637
+      y: 1498
+      width: 451
+      height: 52
+    spriteID: b93edfaab9aba824e81f230a6123dcc5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2636, y: 1497}
+    spritePosition: {x: 1022, y: 526}
+  - name: Forma 1 copy 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2637
+      y: 1558
+      width: 451
+      height: 52
+    spriteID: 8ac320734a6ff6940aa50b0d3067aa57
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2636, y: 1557}
+    spritePosition: {x: 1022, y: 476}
+  - name: Forma 1 copy 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2637
+      y: 1618
+      width: 451
+      height: 52
+    spriteID: a881ccb051506584b85220e641b48551
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2636, y: 1617}
+    spritePosition: {x: 1022, y: 426}
+  - name: Forma 1 copy 4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2637
+      y: 1678
+      width: 451
+      height: 52
+    spriteID: eff261434947faf478c97472cb3940f9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2636, y: 1677}
+    spritePosition: {x: 1022, y: 376}
+  - name: Forma 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2637
+      y: 2458
+      width: 451
+      height: 51
+    spriteID: 753ae2e923db1ae469196d51cb090e6e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2636, y: 2457}
+    spritePosition: {x: 1022, y: 576}
+  - name: Page
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1562
+      width: 531
+      height: 771
+    spriteID: 3c095c8a29c37c74eb1ec6c405ec20b4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1562}
+    spritePosition: {x: 973, y: 235}
+  - name: Title
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3097
+      y: 843
+      width: 182
+      height: 48
+    spriteID: e8779eb791f6d3e42b665fe2424180b2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3097, y: 843}
+    spritePosition: {x: 156, y: 920}
+  - name: Instructions
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3097
+      y: 4
+      width: 462
+      height: 212
+    spriteID: f0141e378aaa98a4f8f0a6c7d3bd3fef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3097, y: 4}
+    spritePosition: {x: 156, y: 674}
+  - name: Forma 2 copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2612
+      y: 3519
+      width: 4
+      height: 251
+    spriteID: 2ca21f21280cfcc4fbce605db97c6b5c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2611, y: 3517}
+    spritePosition: {x: 454, y: 376}
+  - name: Forma 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2612
+      y: 3778
+      width: 4
+      height: 251
+    spriteID: bbe3c8aa291fb1e46b8f02c684662f9b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2611, y: 3776}
+    spritePosition: {x: 294, y: 376}
+  - name: Odd               Odd             MANSION
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3567
+      y: 495
+      width: 374
+      height: 17
+    spriteID: 59780e3004c210f4991bc60c3492a997
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3567, y: 495}
+    spritePosition: {x: 202, y: 392}
+  - name: Even              Even           BUNGALOW
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3567
+      y: 372
+      width: 382
+      height: 17
+    spriteID: 88d3b4db114ed3d418beab959eb45d17
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3567, y: 372}
+    spritePosition: {x: 202, y: 444}
+  - name: Odd               Even               FLAT
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3567
+      y: 810
+      width: 351
+      height: 17
+    spriteID: fed1c6678c5eec947ab1d431fa220a79
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3567, y: 810}
+    spritePosition: {x: 202, y: 494}
+  - name: Even               Odd             DUPLEX
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3567
+      y: 320
+      width: 363
+      height: 18
+    spriteID: 7f79635761969ad48bd9d81e850ff414
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3567, y: 320}
+    spritePosition: {x: 200, y: 544}
+  - name: 3rd digit        4th digit           HOME
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3567
+      y: 92
+      width: 375
+      height: 23
+    spriteID: 46718000aba04cb47bd23602bfe37471
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3567, y: 92}
+    spritePosition: {x: 178, y: 587}
+  - name: Forma 1 copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2637
+      y: 1738
+      width: 451
+      height: 52
+    spriteID: f16e8fa4eb81d0b4aa106642d32508d2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2636, y: 1737}
+    spritePosition: {x: 156, y: 526}
+  - name: Forma 1 copy 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2637
+      y: 1798
+      width: 451
+      height: 52
+    spriteID: 9cc700fe41ab1704fb3fa24246590989
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2636, y: 1797}
+    spritePosition: {x: 156, y: 476}
+  - name: Forma 1 copy 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2637
+      y: 1858
+      width: 451
+      height: 52
+    spriteID: 8b05edf4616b2f54baa40bc15e74eb8a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2636, y: 1857}
+    spritePosition: {x: 156, y: 426}
+  - name: Forma 1 copy 4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2637
+      y: 1918
+      width: 451
+      height: 52
+    spriteID: fef9a14e6ec65a5468fe350ef8579382
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2636, y: 1917}
+    spritePosition: {x: 156, y: 376}
+  - name: Forma 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2637
+      y: 2517
+      width: 451
+      height: 51
+    spriteID: f572cac5d0b11df4fb6ce474d31013d1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2636, y: 2516}
+    spritePosition: {x: 156, y: 576}
+  - name: Page
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2341
+      width: 531
+      height: 771
+    spriteID: bc7e1ffeef9f1344696b3a13b7bcedaa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2341}
+    spritePosition: {x: 107, y: 235}
+  - name: Title
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3097
+      y: 899
+      width: 182
+      height: 48
+    spriteID: 9294861968c7ba04b8a07dc28cea5fb9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3097, y: 899}
+    spritePosition: {x: 1151, y: 925}
+  - name: Forma 2 copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2624
+      y: 3519
+      width: 4
+      height: 251
+    spriteID: 16fb08d966b62444abc636e0a49caea1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2623, y: 3517}
+    spritePosition: {x: 1448, y: 537}
+  - name: Forma 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2624
+      y: 3778
+      width: 4
+      height: 251
+    spriteID: 1e4cbd0daaff6b3469b25d6dfd32df29
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2623, y: 3776}
+    spritePosition: {x: 1288, y: 537}
+  - name: IMPAR              IMPAR                 PISO
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3567
+      y: 1075
+      width: 359
+      height: 16
+    spriteID: e46a5b4a24240ed44b1e1c91253e7edf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3567, y: 1075}
+    spritePosition: {x: 1186, y: 555}
+  - name: PAR                 PAR                 DUPLEX
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3567
+      y: 859
+      width: 364
+      height: 16
+    spriteID: 45de88b0c864b5042996bec257235376
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3567, y: 859}
+    spritePosition: {x: 1197, y: 603}
+  - name: IMPAR                PAR              BUNGALOW
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3567
+      y: 270
+      width: 389
+      height: 17
+    spriteID: 432bcc79470c038499bd8ea7830359b3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3567, y: 270}
+    spritePosition: {x: 1187, y: 653}
+  - name: "PAR                IMPAR             MANSI\xD3N"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3567
+      y: 213
+      width: 367
+      height: 21
+    spriteID: 5c76751132467794cae4c1572368a248
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3567, y: 213}
+    spritePosition: {x: 1197, y: 704}
+  - name: "3r d\xEDgito          4to digito             CASA"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3567
+      y: 153
+      width: 377
+      height: 22
+    spriteID: 86fdbfb67c6d5254e8fe6e7ceb37d68f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3567, y: 153}
+    spritePosition: {x: 1175, y: 749}
+  - name: Forma 1 copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2637
+      y: 1978
+      width: 451
+      height: 52
+    spriteID: 0771813f8d10558459ffb4b5ae4d6cef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2636, y: 1977}
+    spritePosition: {x: 1150, y: 687}
+  - name: Forma 1 copy 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2637
+      y: 2038
+      width: 451
+      height: 52
+    spriteID: 3f94c77130d25f74facfe34ee99c14eb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2636, y: 2037}
+    spritePosition: {x: 1150, y: 637}
+  - name: Forma 1 copy 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2637
+      y: 2098
+      width: 451
+      height: 52
+    spriteID: 0a49325a7f1348447899e9ad5728026b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2636, y: 2097}
+    spritePosition: {x: 1150, y: 587}
+  - name: Forma 1 copy 4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2637
+      y: 2158
+      width: 451
+      height: 52
+    spriteID: 1380157c97a070e43b0dd03052b014b2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2636, y: 2157}
+    spritePosition: {x: 1150, y: 537}
+  - name: Forma 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2637
+      y: 2576
+      width: 451
+      height: 51
+    spriteID: fee0bdad7b9712b4e820718544e16c22
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2636, y: 2575}
+    spritePosition: {x: 1150, y: 737}
+  - name: Instructions
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2160
+      y: 2386
+      width: 455
+      height: 561
+    spriteID: 81dbab9e87a001046ab8fae039aa3b28
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2160, y: 2386}
+    spritePosition: {x: 1149, y: 325}
+  - name: Page
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3120
+      width: 531
+      height: 771
+    spriteID: 92a694b8b7ba7c648839e77e4fcbda35
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3120}
+    spritePosition: {x: 1100, y: 238}
+  - name: Title
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3097
+      y: 955
+      width: 182
+      height: 48
+    spriteID: b5dbbc046af24f446a034cadc9c6901e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3097, y: 955}
+    spritePosition: {x: 218, y: 922}
+  - name: Forma 2 copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2102
+      y: 2341
+      width: 4
+      height: 251
+    spriteID: 1bf6000551ac5bd44951bcf10944d418
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2101, y: 2339}
+    spritePosition: {x: 515, y: 534}
+  - name: Forma 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2102
+      y: 2600
+      width: 4
+      height: 251
+    spriteID: c442837d5a116124c8016680899bb624
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2101, y: 2598}
+    spritePosition: {x: 355, y: 534}
+  - name: Odd                Odd                    FLAT
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3567
+      y: 1099
+      width: 358
+      height: 16
+    spriteID: 72a75b5ef6b18644ab7f0bd4ee3bca84
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3567, y: 1099}
+    spritePosition: {x: 262, y: 552}
+  - name: Even               Even                 DUPLEX
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3567
+      y: 835
+      width: 367
+      height: 16
+    spriteID: 7f3d9861a57824045b3a1b2170d81bbe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3567, y: 835}
+    spritePosition: {x: 261, y: 602}
+  - name: Odd                Even               BUNGALOW
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3567
+      y: 616
+      width: 386
+      height: 16
+    spriteID: a1f5da69d208f8140a4f5decdfc66057
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3567, y: 616}
+    spritePosition: {x: 262, y: 651}
+  - name: Even                Odd                MANSION
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3567
+      y: 786
+      width: 377
+      height: 16
+    spriteID: a34c92c54a3c370429c3496fddbf1b9d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3567, y: 786}
+    spritePosition: {x: 261, y: 702}
+  - name: 3rd digit          4th digit              HOME
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3567
+      y: 183
+      width: 376
+      height: 22
+    spriteID: 425be24aa004e6f4aa38d89dedfb78aa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3567, y: 183}
+    spritePosition: {x: 242, y: 746}
+  - name: Forma 1 copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2637
+      y: 2218
+      width: 451
+      height: 52
+    spriteID: b5d1cd75a66ddcf40abdd9cbfbcffe1f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2636, y: 2217}
+    spritePosition: {x: 217, y: 684}
+  - name: Forma 1 copy 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2637
+      y: 2278
+      width: 451
+      height: 52
+    spriteID: 2e7684bc457eb51489a2f65ce521084f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2636, y: 2277}
+    spritePosition: {x: 217, y: 634}
+  - name: Forma 1 copy 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2637
+      y: 2338
+      width: 451
+      height: 52
+    spriteID: 300cd18ee2bc7594c870c60f3f821e78
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2636, y: 2337}
+    spritePosition: {x: 217, y: 584}
+  - name: Forma 1 copy 4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2637
+      y: 2398
+      width: 451
+      height: 52
+    spriteID: 69ec8db51f4b4b941b0f753758cf8f8f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2636, y: 2397}
+    spritePosition: {x: 217, y: 534}
+  - name: Forma 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2637
+      y: 2635
+      width: 451
+      height: 51
+    spriteID: 686a42f9270697f49b8561816cccb626
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2636, y: 2634}
+    spritePosition: {x: 217, y: 734}
+  - name: Instructions
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1621
+      y: 3555
+      width: 471
+      height: 529
+    spriteID: cc8123c4ab9d7724e8238bf96d8141c9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1621, y: 3555}
+    spritePosition: {x: 215, y: 354}
+  - name: Page
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 543
+      y: 4
+      width: 531
+      height: 771
+    spriteID: 2831f720142db64439a319aaee6e849d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 543, y: 4}
+    spritePosition: {x: 167, y: 235}
+  - name: Title
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3097
+      y: 633
+      width: 457
+      height: 29
+    spriteID: a1b2acfd6b720c845a5c04bf94d02281
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3097, y: 633}
+    spritePosition: {x: 1057, y: 923}
+  - name: Instructions
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2160
+      y: 3519
+      width: 444
+      height: 570
+    spriteID: 709e2b3b820cf454bb4fafb54475fa71
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2160, y: 3519}
+    spritePosition: {x: 1058, y: 328}
+  - name: Page
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 543
+      y: 783
+      width: 531
+      height: 771
+    spriteID: 5af6addb8f0219648a2b60ba743d203d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 543, y: 783}
+    spritePosition: {x: 1006, y: 236}
+  - name: Title
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3097
+      y: 490
+      width: 414
+      height: 37
+    spriteID: e07b127f5c1175f46afb6b2eb09c466f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3097, y: 490}
+    spritePosition: {x: 136, y: 922}
+  - name: Instructions
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2160
+      y: 1221
+      width: 461
+      height: 592
+    spriteID: 1c30906c60a6665439e7323260e88488
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2160, y: 1221}
+    spritePosition: {x: 135, y: 305}
+  - name: Page
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 543
+      y: 1562
+      width: 531
+      height: 771
+    spriteID: 64dbdbde30f504f43be51865d9c8bac4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 543, y: 1562}
+    spritePosition: {x: 85, y: 236}
+  - name: Title
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3097
+      y: 670
+      width: 275
+      height: 47
+    spriteID: 5f657915ade0e2347896f5402529352f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3097, y: 670}
+    spritePosition: {x: 1117, y: 920}
+  - name: Instructions
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2160
+      y: 1821
+      width: 468
+      height: 557
+    spriteID: 08695c80b9c2ec045b5d6804930f051a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2160, y: 1821}
+    spritePosition: {x: 1115, y: 336}
+  - name: Page
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 543
+      y: 2341
+      width: 531
+      height: 771
+    spriteID: af731fcbdc5b0ea4a8527d5e2698c7fe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 543, y: 2341}
+    spritePosition: {x: 1068, y: 236}
+  - name: Title
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3567
+      y: 1339
+      width: 115
+      height: 47
+    spriteID: 9bb1169ec73c748479c28e8726c141c4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3567, y: 1339}
+    spritePosition: {x: 202, y: 920}
+  - name: Instructions
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2160
+      y: 2955
+      width: 458
+      height: 556
+    spriteID: f1e24a2399a849245bf5d3eb2eee3c5a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2160, y: 2955}
+    spritePosition: {x: 200, y: 337}
+  - name: Page
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 543
+      y: 3120
+      width: 531
+      height: 771
+    spriteID: e0975eff693e56b4ba79cb79dacba0b1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 543, y: 3120}
+    spritePosition: {x: 153, y: 236}
+  - name: Title
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3097
+      y: 535
+      width: 351
+      height: 41
+    spriteID: ab1e5451045ec4944905fb2218c7e597
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3097, y: 535}
+    spritePosition: {x: 1190, y: 924}
+  - name: Instructions
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2160
+      y: 609
+      width: 459
+      height: 604
+    spriteID: 18a223cbe9dfac940ac519e90fcd5cd6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2160, y: 609}
+    spritePosition: {x: 1191, y: 296}
+  - name: Page
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1082
+      y: 4
+      width: 531
+      height: 771
+    spriteID: 9a961d518e6aa68478590698301348ff
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1082, y: 4}
+    spritePosition: {x: 1141, y: 234}
+  - name: Title
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2637
+      y: 2914
+      width: 448
+      height: 41
+    spriteID: bd471d53c2ed8014689f39ed34999115
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2637, y: 2914}
+    spritePosition: {x: 268, y: 924}
+  - name: Instructions
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2160
+      y: 4
+      width: 469
+      height: 597
+    spriteID: 09fecf88b2677fe4bb0cbedb8c0a2aa8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2160, y: 4}
+    spritePosition: {x: 265, y: 303}
+  - name: Page
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1082
+      y: 783
+      width: 531
+      height: 771
+    spriteID: a1a60cbaab331f34399e7ca636a266a1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1082, y: 783}
+    spritePosition: {x: 219, y: 234}
+  - name: Title
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3097
+      y: 584
+      width: 351
+      height: 41
+    spriteID: 75cc14692fd5d6446bca1c8397ff627a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3097, y: 584}
+    spritePosition: {x: 1254, y: 924}
+  - name: Instructions
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1621
+      y: 2948
+      width: 471
+      height: 599
+    spriteID: 76d9867941c059d4aa478b6b291974eb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1621, y: 2948}
+    spritePosition: {x: 1249, y: 300}
+  - name: Page
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1082
+      y: 1562
+      width: 531
+      height: 771
+    spriteID: e3347921b2a60f24da1ff7746b03d3ae
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1082, y: 1562}
+    spritePosition: {x: 1205, y: 234}
+  - name: Title
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2637
+      y: 2963
+      width: 448
+      height: 41
+    spriteID: 65618063e08aa4646995b8c19298e5cd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2637, y: 2963}
+    spritePosition: {x: 330, y: 924}
+  - name: Instructions
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1621
+      y: 2341
+      width: 473
+      height: 599
+    spriteID: 951459f334998c44181ccce3c9f81679
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1621, y: 2341}
+    spritePosition: {x: 325, y: 300}
+  - name: Page
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1082
+      y: 2341
+      width: 531
+      height: 771
+    spriteID: a7c768d47cd59664f867614b6985f731
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1082, y: 2341}
+    spritePosition: {x: 281, y: 234}
+  - name: Title
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2637
+      y: 2694
+      width: 411
+      height: 47
+    spriteID: 55d0771e9068c5146bba758ddfa0209d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2637, y: 2694}
+    spritePosition: {x: 1315, y: 922}
+  - name: Instructions
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2637
+      y: 376
+      width: 442
+      height: 364
+    spriteID: cf42aab1227aec44e94c3382144efd49
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2637, y: 376}
+    spritePosition: {x: 1314, y: 536}
+  - name: Forma 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2100
+      y: 3555
+      width: 5
+      height: 252
+    spriteID: c4c2d5e1fb491fc4cbd9b3c9e9caaf1c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2099, y: 3554}
+    spritePosition: {x: 1621, y: 594}
+  - name: CAJERO          5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3567
+      y: 1219
+      width: 355
+      height: 16
+    spriteID: dd9be307c9853f24289a10d37af7292e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3567, y: 1219}
+    spritePosition: {x: 1334, y: 639}
+  - name: POLICIA          4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3567
+      y: 1123
+      width: 358
+      height: 16
+    spriteID: 24b56ae743e25024f9f122f664df6d34
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3567, y: 1123}
+    spritePosition: {x: 1334, y: 676}
+  - name: BOMBERO          3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3567
+      y: 1267
+      width: 354
+      height: 16
+    spriteID: b758a34c9794ad646a345f32a347e965
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3567, y: 1267}
+    spritePosition: {x: 1334, y: 711}
+  - name: PROFESOR          2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3567
+      y: 713
+      width: 356
+      height: 17
+    spriteID: 62d2b97c8d1bbc04e94abc950c3c209f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3567, y: 713}
+    spritePosition: {x: 1334, y: 747}
+  - name: PANADERO          6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3567
+      y: 1171
+      width: 356
+      height: 16
+    spriteID: 5df8a65f00439c84d83cff5aa59f42f9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3567, y: 1171}
+    spritePosition: {x: 1333, y: 604}
+  - name: "Trabajo          N\xFAmero"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2637
+      y: 4065
+      width: 398
+      height: 23
+    spriteID: c689bbf5b0e30ee49896b53b3dcc5593
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2637, y: 4065}
+    spritePosition: {x: 1332, y: 813}
+  - name: "MEC\xC1NICO          1"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3567
+      y: 242
+      width: 352
+      height: 20
+    spriteID: 8f51bec071bf1704e827250722b5f8e9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3567, y: 242}
+    spritePosition: {x: 1333, y: 783}
+  - name: Forma 1 copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2637
+      y: 3012
+      width: 452
+      height: 38
+    spriteID: 7eb33479f15c61a4d84aafea911696cc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2636, y: 3011}
+    spritePosition: {x: 1313, y: 737}
+  - name: Forma 1 copy 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2637
+      y: 3058
+      width: 452
+      height: 38
+    spriteID: 2aba54a2e534c0c40825a477818c158e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2636, y: 3057}
+    spritePosition: {x: 1313, y: 701}
+  - name: Forma 1 copy 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2637
+      y: 3104
+      width: 452
+      height: 38
+    spriteID: 3768cf74b9692bb48abedf244c3f431f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2636, y: 3103}
+    spritePosition: {x: 1313, y: 665}
+  - name: Forma 1 copy 4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2637
+      y: 3840
+      width: 452
+      height: 37
+    spriteID: 56e4bdf6668379740ab3029a41518d9d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2636, y: 3839}
+    spritePosition: {x: 1313, y: 630}
+  - name: Forma 1 copy 5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2637
+      y: 3150
+      width: 452
+      height: 38
+    spriteID: 92b8c2ec1550fb4459305914b9c345f2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2636, y: 3149}
+    spritePosition: {x: 1313, y: 594}
+  - name: Forma 1 copy 6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2637
+      y: 3196
+      width: 452
+      height: 38
+    spriteID: 71533adf00a32f747b7044ffe51ce4a6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2636, y: 3195}
+    spritePosition: {x: 1313, y: 808}
+  - name: Forma 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2637
+      y: 3885
+      width: 452
+      height: 37
+    spriteID: 760046a8142bdb543af5c90badbb80a7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2636, y: 3884}
+    spritePosition: {x: 1313, y: 773}
+  - name: Forma 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2114
+      y: 2341
+      width: 4
+      height: 180
+    spriteID: 045a5da4046d6024689bf659869f922e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2113, y: 2340}
+    spritePosition: {x: 1621, y: 347}
+  - name: VIUDO            9
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3567
+      y: 979
+      width: 362
+      height: 16
+    spriteID: e22e7d9afbe4d884f944ea3701353e4f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3567, y: 979}
+    spritePosition: {x: 1334, y: 357}
+  - name: CASADO            8
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3567
+      y: 1003
+      width: 362
+      height: 16
+    spriteID: ba914472b8529574faae25a527826ef6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3567, y: 1003}
+    spritePosition: {x: 1334, y: 392}
+  - name: DIVORCIADO          7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3567
+      y: 883
+      width: 363
+      height: 16
+    spriteID: 360ca233e1fe1ee4b84df143dfaa13f3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3567, y: 882}
+    spritePosition: {x: 1334, y: 429}
+  - name: "Estado Civil         N\xFAmero"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3567
+      y: 423
+      width: 401
+      height: 16
+    spriteID: be30fc02211cdd14181511a75f59a4ee
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3567, y: 423}
+    spritePosition: {x: 1333, y: 502}
+  - name: SOLTERO / COMPROMETIDO      0
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3567
+      y: 907
+      width: 363
+      height: 16
+    spriteID: 54a3aaaca416013488bf2077eebec645
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3567, y: 907}
+    spritePosition: {x: 1333, y: 464}
+  - name: Forma 1 copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2637
+      y: 3242
+      width: 452
+      height: 38
+    spriteID: 622e32f655cfd184d80a45cc89327f04
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2636, y: 3241}
+    spritePosition: {x: 1313, y: 418}
+  - name: Forma 1 copy 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2637
+      y: 3288
+      width: 452
+      height: 38
+    spriteID: 710058feda70695438113d1cc3ac2ede
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2636, y: 3287}
+    spritePosition: {x: 1313, y: 382}
+  - name: Forma 1 copy 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2637
+      y: 3334
+      width: 452
+      height: 38
+    spriteID: 2a7a12fb4026b864497a66dfd85b17dc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2636, y: 3333}
+    spritePosition: {x: 1313, y: 346}
+  - name: Forma 1 copy 6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2637
+      y: 3380
+      width: 452
+      height: 38
+    spriteID: 69dbd5986b151ae4fb70c2285323d9e0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2636, y: 3379}
+    spritePosition: {x: 1313, y: 489}
+  - name: Forma 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2637
+      y: 3930
+      width: 452
+      height: 37
+    spriteID: 7fc88b15cb2d431419af43022bad4746
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2636, y: 3929}
+    spritePosition: {x: 1313, y: 454}
+  - name: Page
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1082
+      y: 3120
+      width: 531
+      height: 771
+    spriteID: 6ec6dd1183d10884c9be7e7fbe2a1b51
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1082, y: 3120}
+    spritePosition: {x: 1272, y: 234}
+  - name: Title
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2637
+      y: 2749
+      width: 410
+      height: 47
+    spriteID: e60b9d82b049d434a9c1dda8012d4763
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2637, y: 2749}
+    spritePosition: {x: 393, y: 922}
+  - name: Instructions
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2637
+      y: 4
+      width: 452
+      height: 364
+    spriteID: 591713b0f9e39224f9cbb92011fb65a1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2637, y: 4}
+    spritePosition: {x: 392, y: 536}
+  - name: Forma 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2100
+      y: 3815
+      width: 5
+      height: 252
+    spriteID: f068e0a5b024cb94f8d8bff5a2c0217e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2099, y: 3814}
+    spritePosition: {x: 699, y: 594}
+  - name: CASHIER          5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3567
+      y: 1243
+      width: 355
+      height: 16
+    spriteID: b2492c59f2771ef4c835cf50afa390ce
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3567, y: 1243}
+    spritePosition: {x: 412, y: 639}
+  - name: POLICEMAN          4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3567
+      y: 1147
+      width: 358
+      height: 16
+    spriteID: 30e74acc0461eb245af470cc6873af8c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3567, y: 1147}
+    spritePosition: {x: 412, y: 676}
+  - name: FIREFIGHTER         3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3567
+      y: 1291
+      width: 354
+      height: 16
+    spriteID: 6abef533c197bc1478ed8ffa2dc1d1d2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3567, y: 1291}
+    spritePosition: {x: 412, y: 711}
+  - name: TEACHER          2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3567
+      y: 688
+      width: 357
+      height: 17
+    spriteID: d67807d1891139c4191bcadd53b949c6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3567, y: 688}
+    spritePosition: {x: 411, y: 747}
+  - name: BAKER           6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3567
+      y: 1195
+      width: 356
+      height: 16
+    spriteID: 4baaa926a7f169647b4f55436ecccecd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3567, y: 1195}
+    spritePosition: {x: 411, y: 604}
+  - name: Job           Number
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3567
+      y: 447
+      width: 398
+      height: 16
+    spriteID: 03eb81a595368e74aa2c4303d4c3951d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3567, y: 447}
+    spritePosition: {x: 411, y: 820}
+  - name: MECHANIC          1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3567
+      y: 1315
+      width: 352
+      height: 16
+    spriteID: afac1c5aae3125745a04de37c98209ac
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3567, y: 1315}
+    spritePosition: {x: 411, y: 783}
+  - name: Forma 1 copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2637
+      y: 3426
+      width: 452
+      height: 38
+    spriteID: 496433825bc993141b074675202714d2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2636, y: 3425}
+    spritePosition: {x: 391, y: 737}
+  - name: Forma 1 copy 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2637
+      y: 3472
+      width: 452
+      height: 38
+    spriteID: b16b7f6c57b85404e8528d06909180e0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2636, y: 3471}
+    spritePosition: {x: 391, y: 701}
+  - name: Forma 1 copy 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2637
+      y: 3518
+      width: 452
+      height: 38
+    spriteID: 4d5ca9dfdfbf5984ab28d10b3032b31a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2636, y: 3517}
+    spritePosition: {x: 391, y: 665}
+  - name: Forma 1 copy 4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2637
+      y: 3975
+      width: 452
+      height: 37
+    spriteID: 740946f89976db3438557f0330698992
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2636, y: 3974}
+    spritePosition: {x: 391, y: 630}
+  - name: Forma 1 copy 5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2637
+      y: 3564
+      width: 452
+      height: 38
+    spriteID: e6ebbd54286537149951f5a64e2c9be3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2636, y: 3563}
+    spritePosition: {x: 391, y: 594}
+  - name: Forma 1 copy 6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2637
+      y: 3610
+      width: 452
+      height: 38
+    spriteID: 6c2f14c51ce1b7d4687cd3377c13e847
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2636, y: 3609}
+    spritePosition: {x: 391, y: 808}
+  - name: Forma 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2637
+      y: 4020
+      width: 452
+      height: 37
+    spriteID: 3c811b5d598287c418310aa6574d4936
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2636, y: 4019}
+    spritePosition: {x: 391, y: 773}
+  - name: Forma 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2114
+      y: 2529
+      width: 4
+      height: 180
+    spriteID: 242a8ea662845e34f8c38d1d4771988d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2113, y: 2528}
+    spritePosition: {x: 699, y: 347}
+  - name: WIDOWED           9
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3567
+      y: 1027
+      width: 362
+      height: 16
+    spriteID: 66b78383aa561354fa38e3fb4f6e3a64
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3567, y: 1027}
+    spritePosition: {x: 412, y: 357}
+  - name: MARRIED            8
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3567
+      y: 1051
+      width: 362
+      height: 16
+    spriteID: 085e6368898ed534197b683c6ccaa5eb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3567, y: 1051}
+    spritePosition: {x: 412, y: 392}
+  - name: DIVORCED           7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3567
+      y: 931
+      width: 363
+      height: 16
+    spriteID: 19c8c06cf08034f408648b4eaace6570
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3567, y: 930}
+    spritePosition: {x: 412, y: 429}
+  - name: Marital Status        Number
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3567
+      y: 471
+      width: 398
+      height: 16
+    spriteID: 72be5b75f2d4dd5439eac54ed7ee47b3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3567, y: 471}
+    spritePosition: {x: 411, y: 501}
+  - name: SINGLE/ENGAGED         0
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3567
+      y: 955
+      width: 363
+      height: 16
+    spriteID: abd3e68e250e77b40a419c27ef47f40f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3567, y: 955}
+    spritePosition: {x: 411, y: 464}
+  - name: Forma 1 copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2637
+      y: 3656
+      width: 452
+      height: 38
+    spriteID: 89dca65865c4bfe40b31c1a7e3e9a37f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2636, y: 3655}
+    spritePosition: {x: 391, y: 418}
+  - name: Forma 1 copy 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2637
+      y: 3702
+      width: 452
+      height: 38
+    spriteID: d37326a192f72c244bac172d008a4f4e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2636, y: 3701}
+    spritePosition: {x: 391, y: 382}
+  - name: Forma 1 copy 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2637
+      y: 3748
+      width: 452
+      height: 38
+    spriteID: a41b5abf9cc99be41ad3db79ec0e7052
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2636, y: 3747}
+    spritePosition: {x: 391, y: 346}
+  - name: Forma 1 copy 6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2637
+      y: 3794
+      width: 452
+      height: 38
+    spriteID: 8e22fe29f5c323c4195d67ac2ac75a35
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2636, y: 3793}
+    spritePosition: {x: 391, y: 489}
+  - name: Forma 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3097
+      y: 445
+      width: 452
+      height: 37
+    spriteID: 988be7617aeb6e9468b9690a0daa0f18
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3096, y: 444}
+    spritePosition: {x: 391, y: 454}
+  - name: Page
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1621
+      y: 4
+      width: 531
+      height: 771
+    spriteID: 53a15c0ecaf952a4695d1a44d413d067
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1621, y: 4}
+    spritePosition: {x: 350, y: 234}
+  - name: Title
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2637
+      y: 2804
+      width: 410
+      height: 47
+    spriteID: e78a5eab7868d4a4c8cfbcfd229b62cd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2637, y: 2804}
+    spritePosition: {x: 1375, y: 926}
+  - name: Instructions
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2637
+      y: 973
+      width: 444
+      height: 217
+    spriteID: c0074a1facdf3db43b04918c9560a023
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2637, y: 973}
+    spritePosition: {x: 1375, y: 676}
+  - name: Page
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1621
+      y: 783
+      width: 531
+      height: 771
+    spriteID: f41c2adf421e0dd4ea436dcc8b847fbc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1621, y: 783}
+    spritePosition: {x: 1332, y: 238}
+  - name: Title
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2637
+      y: 2859
+      width: 410
+      height: 47
+    spriteID: 248d205573acd08458210c32aeb64d62
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2637, y: 2859}
+    spritePosition: {x: 457, y: 926}
+  - name: Instructions
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2637
+      y: 748
+      width: 446
+      height: 217
+    spriteID: 209cad9384505d84681b746717f6ca4f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2637, y: 748}
+    spritePosition: {x: 457, y: 676}
+  - name: Page
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1621
+      y: 1562
+      width: 531
+      height: 771
+    spriteID: d3e3b8bf05a66a746b80233c65116db5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1621, y: 1562}
+    spritePosition: {x: 414, y: 238}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  sharedRigSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  mosaicLayers: 1
+  characterMode: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 1
+  layerMappingOption: 2
+  generatePhysicsShape: 0
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  skeletonAssetReferenceID: 
+  pipeline: {instanceID: 0}
+  pipelineVersion: 
+  padding: 4
+  spriteSizeExpand: 0
+  spriteCategoryList:
+    categories: []
+  spritePackingTag: 
+  resliceFromLayer: 0
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Manual
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 9701e1f3197b71d49a7b745f1d19bfbc
+    layerID: 275
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Page 1 ES
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 802669d925d31f843bc6286791151c6a
+    layerID: 795
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Title
+    spriteName: Title
+    isGroup: 0
+    parentIndex: 1
+    spriteID: c784240dcd8435742bbbfb07f524df9d
+    layerID: 794
+    mosaicPosition: {x: 3097, y: 1011}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Instructions
+    spriteName: Instructions
+    isGroup: 0
+    parentIndex: 1
+    spriteID: ab1f7036f3323314b8296801339702f5
+    layerID: 793
+    mosaicPosition: {x: 4, y: 3994}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Table
+    spriteName: 
+    isGroup: 1
+    parentIndex: 1
+    spriteID: 203b0b2986d2d594d885507ee681e887
+    layerID: 792
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Forma 2
+    spriteName: Forma 2
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 003d41aba1d7f03479ad277658084555
+    layerID: 791
+    mosaicPosition: {x: 2113, y: 3555}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 2
+    spriteName: Forma 2
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 15de58db3ea4c904ca51201bde799e8f
+    layerID: 790
+    mosaicPosition: {x: 2113, y: 3814}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 2
+    spriteName: Forma 2
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 5c48971469e04d74d9d627e3ef52665b
+    layerID: 789
+    mosaicPosition: {x: 2125, y: 3555}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Toledo          23-30      47-54      89-92
+    spriteName: Toledo          23-30      47-54      89-92
+    isGroup: 0
+    parentIndex: 4
+    spriteID: ac60582afbddb4d43bc1e0a73a2a6950
+    layerID: 788
+    mosaicPosition: {x: 3567, y: 520}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: "C\xE1diz           09-15       65-70      75-81"
+    spriteName: "C\xE1diz           09-15       65-70      75-81"
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 131a70cd1ab4f6248861a0e66c23cf26
+    layerID: 787
+    mosaicPosition: {x: 3567, y: 640}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Sevilla          16-22       41-46     82-88
+    spriteName: Sevilla          16-22       41-46     82-88
+    isGroup: 0
+    parentIndex: 4
+    spriteID: ecc98d23a5ada094b8ea0ebf267d9eec
+    layerID: 786
+    mosaicPosition: {x: 3567, y: 568}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Lebrija          31-40       71-74      94-99
+    spriteName: Lebrija          31-40       71-74      94-99
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 13602447464143a46b435e052a544184
+    layerID: 785
+    mosaicPosition: {x: 3097, y: 725}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Madrid          00-08      55-64         93
+    spriteName: Madrid          00-08      55-64         93
+    isGroup: 0
+    parentIndex: 4
+    spriteID: aa0ba4c6bf749c64a8efb262e977c231
+    layerID: 784
+    mosaicPosition: {x: 3567, y: 738}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 1 copy
+    spriteName: Forma 1 copy
+    isGroup: 0
+    parentIndex: 4
+    spriteID: bbf2ef5979494964ca41442145a5a9b8
+    layerID: 783
+    mosaicPosition: {x: 543, y: 3962}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 1 copy 2
+    spriteName: Forma 1 copy 2
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 4c1af2a1937f36747bc553b032298641
+    layerID: 782
+    mosaicPosition: {x: 543, y: 4022}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 1 copy 3
+    spriteName: Forma 1 copy 3
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 0e95543ca4bdac84fa28dcb0000667a4
+    layerID: 781
+    mosaicPosition: {x: 1082, y: 3899}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 1 copy 4
+    spriteName: Forma 1 copy 4
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 81297c2a79429e44489c37b411e29683
+    layerID: 780
+    mosaicPosition: {x: 1082, y: 3959}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 1
+    spriteName: Forma 1
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 859759717e4fa9c419987bde805abb37
+    layerID: 779
+    mosaicPosition: {x: 1082, y: 4019}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Instructions
+    spriteName: Instructions
+    isGroup: 0
+    parentIndex: 1
+    spriteID: 1b3cbee35e5764445919336dd844ae4d
+    layerID: 777
+    mosaicPosition: {x: 543, y: 3899}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Page
+    spriteName: Page
+    isGroup: 0
+    parentIndex: 1
+    spriteID: 29dca9cd127633040a68a116f567a5c7
+    layerID: 776
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Page 1 EN
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: ffc317c3a4718354aa0970bcf82d4648
+    layerID: 365
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Title
+    spriteName: Title
+    isGroup: 0
+    parentIndex: 20
+    spriteID: de2c09a2374da6c46ac67d6b7e5e6dc2
+    layerID: 363
+    mosaicPosition: {x: 3380, y: 670}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Instructions
+    spriteName: Instructions
+    isGroup: 0
+    parentIndex: 20
+    spriteID: 5e507f3839899ed48a97ba288ad17224
+    layerID: 367
+    mosaicPosition: {x: 4, y: 3899}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Table
+    spriteName: 
+    isGroup: 1
+    parentIndex: 20
+    spriteID: 770e7a248b397134d86d532655087e8f
+    layerID: 379
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Forma 2
+    spriteName: Forma 2
+    isGroup: 0
+    parentIndex: 23
+    spriteID: 9c6ad0507cc79b742be0b40de9685237
+    layerID: 735
+    mosaicPosition: {x: 2125, y: 3814}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 2
+    spriteName: Forma 2
+    isGroup: 0
+    parentIndex: 23
+    spriteID: 955b076710181ff44b0783cf74adb2cb
+    layerID: 734
+    mosaicPosition: {x: 2137, y: 3555}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 2
+    spriteName: Forma 2
+    isGroup: 0
+    parentIndex: 23
+    spriteID: 8227eb1766194c444b8b8bccc0a191e3
+    layerID: 384
+    mosaicPosition: {x: 2137, y: 3814}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Toledo          23-30      47-54      89-92
+    spriteName: Toledo          23-30      47-54      89-92
+    isGroup: 0
+    parentIndex: 23
+    spriteID: 9dec26dd1da375b45a7cb365b112bf76
+    layerID: 383
+    mosaicPosition: {x: 3567, y: 544}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: "C\xE1diz           09-15       65-70      75-81"
+    spriteName: "C\xE1diz           09-15       65-70      75-81"
+    isGroup: 0
+    parentIndex: 23
+    spriteID: a498c6fabbf651541ba5a9adc4c78a5f
+    layerID: 382
+    mosaicPosition: {x: 3567, y: 664}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Sevilla          16-22       41-46     82-88
+    spriteName: Sevilla          16-22       41-46     82-88
+    isGroup: 0
+    parentIndex: 23
+    spriteID: 8f081692a88e6f148a5c5180a6b653de
+    layerID: 381
+    mosaicPosition: {x: 3567, y: 592}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Lebrija          31-40       71-74      94-99
+    spriteName: Lebrija          31-40       71-74      94-99
+    isGroup: 0
+    parentIndex: 23
+    spriteID: 0f58f72e8381ef74581b820775a5445c
+    layerID: 378
+    mosaicPosition: {x: 3097, y: 756}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Madrid          00-08      55-64         93
+    spriteName: Madrid          00-08      55-64         93
+    isGroup: 0
+    parentIndex: 23
+    spriteID: e0341a284038240489f6a16d73558af0
+    layerID: 377
+    mosaicPosition: {x: 3567, y: 762}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 1 copy
+    spriteName: Forma 1 copy
+    isGroup: 0
+    parentIndex: 23
+    spriteID: 6c99e21d721cbe54b93750a79c033253
+    layerID: 373
+    mosaicPosition: {x: 2637, y: 1198}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 1 copy 2
+    spriteName: Forma 1 copy 2
+    isGroup: 0
+    parentIndex: 23
+    spriteID: 12567c6966cd56743bb21fbdae299d62
+    layerID: 374
+    mosaicPosition: {x: 2637, y: 1258}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 1 copy 3
+    spriteName: Forma 1 copy 3
+    isGroup: 0
+    parentIndex: 23
+    spriteID: 894e2643a2db96f4cb956e4bbf44bc50
+    layerID: 375
+    mosaicPosition: {x: 2637, y: 1318}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 1 copy 4
+    spriteName: Forma 1 copy 4
+    isGroup: 0
+    parentIndex: 23
+    spriteID: f90134292f1cac54ba216072f0b51eb4
+    layerID: 376
+    mosaicPosition: {x: 2637, y: 1378}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 1
+    spriteName: Forma 1
+    isGroup: 0
+    parentIndex: 23
+    spriteID: 2a138f3889418f542b42ef6e698c1e4a
+    layerID: 372
+    mosaicPosition: {x: 2637, y: 1438}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Instructions
+    spriteName: Instructions
+    isGroup: 0
+    parentIndex: 20
+    spriteID: ec732948b6c18a2479c63cf4e0e3521c
+    layerID: 736
+    mosaicPosition: {x: 3567, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Page
+    spriteName: Page
+    isGroup: 0
+    parentIndex: 20
+    spriteID: 1bfe378f3951c6048ac616d1a54f3f2e
+    layerID: 274
+    mosaicPosition: {x: 4, y: 783}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Page 2 ES
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 823585a4ebd11d64da882aa9b5cfca6d
+    layerID: 774
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Title
+    spriteName: Title
+    isGroup: 0
+    parentIndex: 39
+    spriteID: f08b33e8dc1211646bc0a3ecdad78126
+    layerID: 773
+    mosaicPosition: {x: 3097, y: 787}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Instructions
+    spriteName: Instructions
+    isGroup: 0
+    parentIndex: 39
+    spriteID: 6ece56a140caf1a4abde11d1c8403334
+    layerID: 772
+    mosaicPosition: {x: 3097, y: 224}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Table copy
+    spriteName: 
+    isGroup: 1
+    parentIndex: 39
+    spriteID: 842c5f06f53316b4ebf4d8a8c464f060
+    layerID: 771
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Forma 2 copy
+    spriteName: Forma 2 copy
+    isGroup: 0
+    parentIndex: 42
+    spriteID: d9f71fdb5ef90b64a8de274dd8c1b4e6
+    layerID: 770
+    mosaicPosition: {x: 2623, y: 2386}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 2
+    spriteName: Forma 2
+    isGroup: 0
+    parentIndex: 42
+    spriteID: 9efee7d09a227cd4c8411a0ef5caf26d
+    layerID: 769
+    mosaicPosition: {x: 2623, y: 2645}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: "IMPAR            IMPAR            MANSI\xD3N"
+    spriteName: "IMPAR            IMPAR            MANSI\xD3N"
+    isGroup: 0
+    parentIndex: 42
+    spriteID: b57bdb1800d797240b0b3da984e69e5b
+    layerID: 768
+    mosaicPosition: {x: 3567, y: 123}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: PAR                PAR            BUNGALOW
+    spriteName: PAR                PAR            BUNGALOW
+    isGroup: 0
+    parentIndex: 42
+    spriteID: c9c05a51ce7521340a5bd2ba77c80b08
+    layerID: 767
+    mosaicPosition: {x: 3567, y: 295}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: IMPAR              PAR                FLAT
+    spriteName: IMPAR              PAR                FLAT
+    isGroup: 0
+    parentIndex: 42
+    spriteID: 37190273c9acbed4b9895975629c5281
+    layerID: 766
+    mosaicPosition: {x: 3567, y: 346}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: PAR              IMPAR            DUPLEX
+    spriteName: PAR              IMPAR            DUPLEX
+    isGroup: 0
+    parentIndex: 42
+    spriteID: ee6a7cfd35801414aa78bbfa5bcc0841
+    layerID: 765
+    mosaicPosition: {x: 3567, y: 397}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: "3r d\xEDgito       4to d\xEDgito           CASA"
+    spriteName: "3r d\xEDgito       4to d\xEDgito           CASA"
+    isGroup: 0
+    parentIndex: 42
+    spriteID: 91bc4d124bfc4c2458c3b2b3748a7d7c
+    layerID: 764
+    mosaicPosition: {x: 3567, y: 61}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 1 copy
+    spriteName: Forma 1 copy
+    isGroup: 0
+    parentIndex: 42
+    spriteID: b93edfaab9aba824e81f230a6123dcc5
+    layerID: 763
+    mosaicPosition: {x: 2637, y: 1498}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 1 copy 2
+    spriteName: Forma 1 copy 2
+    isGroup: 0
+    parentIndex: 42
+    spriteID: 8ac320734a6ff6940aa50b0d3067aa57
+    layerID: 762
+    mosaicPosition: {x: 2637, y: 1558}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 1 copy 3
+    spriteName: Forma 1 copy 3
+    isGroup: 0
+    parentIndex: 42
+    spriteID: a881ccb051506584b85220e641b48551
+    layerID: 761
+    mosaicPosition: {x: 2637, y: 1618}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 1 copy 4
+    spriteName: Forma 1 copy 4
+    isGroup: 0
+    parentIndex: 42
+    spriteID: eff261434947faf478c97472cb3940f9
+    layerID: 760
+    mosaicPosition: {x: 2637, y: 1678}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 1
+    spriteName: Forma 1
+    isGroup: 0
+    parentIndex: 42
+    spriteID: 753ae2e923db1ae469196d51cb090e6e
+    layerID: 759
+    mosaicPosition: {x: 2637, y: 2458}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Page
+    spriteName: Page
+    isGroup: 0
+    parentIndex: 39
+    spriteID: 3c095c8a29c37c74eb1ec6c405ec20b4
+    layerID: 757
+    mosaicPosition: {x: 4, y: 1562}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Page 2 EN
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: da6168f400d208c428b74d376f9fb6cf
+    layerID: 402
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Title
+    spriteName: Title
+    isGroup: 0
+    parentIndex: 56
+    spriteID: e8779eb791f6d3e42b665fe2424180b2
+    layerID: 401
+    mosaicPosition: {x: 3097, y: 843}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Instructions
+    spriteName: Instructions
+    isGroup: 0
+    parentIndex: 56
+    spriteID: f0141e378aaa98a4f8f0a6c7d3bd3fef
+    layerID: 400
+    mosaicPosition: {x: 3097, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Table copy
+    spriteName: 
+    isGroup: 1
+    parentIndex: 56
+    spriteID: b4dad335eceffbd44a0b3768fc601842
+    layerID: 651
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Forma 2 copy
+    spriteName: Forma 2 copy
+    isGroup: 0
+    parentIndex: 59
+    spriteID: 2ca21f21280cfcc4fbce605db97c6b5c
+    layerID: 650
+    mosaicPosition: {x: 2612, y: 3519}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 2
+    spriteName: Forma 2
+    isGroup: 0
+    parentIndex: 59
+    spriteID: bbe3c8aa291fb1e46b8f02c684662f9b
+    layerID: 649
+    mosaicPosition: {x: 2612, y: 3778}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Odd               Odd             MANSION
+    spriteName: Odd               Odd             MANSION
+    isGroup: 0
+    parentIndex: 59
+    spriteID: 59780e3004c210f4991bc60c3492a997
+    layerID: 648
+    mosaicPosition: {x: 3567, y: 495}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Even              Even           BUNGALOW
+    spriteName: Even              Even           BUNGALOW
+    isGroup: 0
+    parentIndex: 59
+    spriteID: 88d3b4db114ed3d418beab959eb45d17
+    layerID: 647
+    mosaicPosition: {x: 3567, y: 372}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Odd               Even               FLAT
+    spriteName: Odd               Even               FLAT
+    isGroup: 0
+    parentIndex: 59
+    spriteID: fed1c6678c5eec947ab1d431fa220a79
+    layerID: 646
+    mosaicPosition: {x: 3567, y: 810}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Even               Odd             DUPLEX
+    spriteName: Even               Odd             DUPLEX
+    isGroup: 0
+    parentIndex: 59
+    spriteID: 7f79635761969ad48bd9d81e850ff414
+    layerID: 645
+    mosaicPosition: {x: 3567, y: 320}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: 3rd digit        4th digit           HOME
+    spriteName: 3rd digit        4th digit           HOME
+    isGroup: 0
+    parentIndex: 59
+    spriteID: 46718000aba04cb47bd23602bfe37471
+    layerID: 644
+    mosaicPosition: {x: 3567, y: 92}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 1 copy
+    spriteName: Forma 1 copy
+    isGroup: 0
+    parentIndex: 59
+    spriteID: f16e8fa4eb81d0b4aa106642d32508d2
+    layerID: 643
+    mosaicPosition: {x: 2637, y: 1738}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 1 copy 2
+    spriteName: Forma 1 copy 2
+    isGroup: 0
+    parentIndex: 59
+    spriteID: 9cc700fe41ab1704fb3fa24246590989
+    layerID: 642
+    mosaicPosition: {x: 2637, y: 1798}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 1 copy 3
+    spriteName: Forma 1 copy 3
+    isGroup: 0
+    parentIndex: 59
+    spriteID: 8b05edf4616b2f54baa40bc15e74eb8a
+    layerID: 641
+    mosaicPosition: {x: 2637, y: 1858}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 1 copy 4
+    spriteName: Forma 1 copy 4
+    isGroup: 0
+    parentIndex: 59
+    spriteID: fef9a14e6ec65a5468fe350ef8579382
+    layerID: 640
+    mosaicPosition: {x: 2637, y: 1918}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 1
+    spriteName: Forma 1
+    isGroup: 0
+    parentIndex: 59
+    spriteID: f572cac5d0b11df4fb6ce474d31013d1
+    layerID: 639
+    mosaicPosition: {x: 2637, y: 2517}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Page
+    spriteName: Page
+    isGroup: 0
+    parentIndex: 56
+    spriteID: bc7e1ffeef9f1344696b3a13b7bcedaa
+    layerID: 386
+    mosaicPosition: {x: 4, y: 2341}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Page 3 ES
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 8bd22af76b3296c4ebfa79fefcf0daea
+    layerID: 755
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Title
+    spriteName: Title
+    isGroup: 0
+    parentIndex: 73
+    spriteID: 9294861968c7ba04b8a07dc28cea5fb9
+    layerID: 754
+    mosaicPosition: {x: 3097, y: 899}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Table
+    spriteName: 
+    isGroup: 1
+    parentIndex: 73
+    spriteID: ab48ad8c41905d94e90c419354fee404
+    layerID: 753
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Forma 2 copy
+    spriteName: Forma 2 copy
+    isGroup: 0
+    parentIndex: 75
+    spriteID: 16fb08d966b62444abc636e0a49caea1
+    layerID: 752
+    mosaicPosition: {x: 2624, y: 3519}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 2
+    spriteName: Forma 2
+    isGroup: 0
+    parentIndex: 75
+    spriteID: 1e4cbd0daaff6b3469b25d6dfd32df29
+    layerID: 751
+    mosaicPosition: {x: 2624, y: 3778}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: IMPAR              IMPAR                 PISO
+    spriteName: IMPAR              IMPAR                 PISO
+    isGroup: 0
+    parentIndex: 75
+    spriteID: e46a5b4a24240ed44b1e1c91253e7edf
+    layerID: 750
+    mosaicPosition: {x: 3567, y: 1075}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: PAR                 PAR                 DUPLEX
+    spriteName: PAR                 PAR                 DUPLEX
+    isGroup: 0
+    parentIndex: 75
+    spriteID: 45de88b0c864b5042996bec257235376
+    layerID: 749
+    mosaicPosition: {x: 3567, y: 859}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: IMPAR                PAR              BUNGALOW
+    spriteName: IMPAR                PAR              BUNGALOW
+    isGroup: 0
+    parentIndex: 75
+    spriteID: 432bcc79470c038499bd8ea7830359b3
+    layerID: 748
+    mosaicPosition: {x: 3567, y: 270}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: "PAR                IMPAR             MANSI\xD3N"
+    spriteName: "PAR                IMPAR             MANSI\xD3N"
+    isGroup: 0
+    parentIndex: 75
+    spriteID: 5c76751132467794cae4c1572368a248
+    layerID: 747
+    mosaicPosition: {x: 3567, y: 213}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: "3r d\xEDgito          4to digito             CASA"
+    spriteName: "3r d\xEDgito          4to digito             CASA"
+    isGroup: 0
+    parentIndex: 75
+    spriteID: 86fdbfb67c6d5254e8fe6e7ceb37d68f
+    layerID: 746
+    mosaicPosition: {x: 3567, y: 153}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 1 copy
+    spriteName: Forma 1 copy
+    isGroup: 0
+    parentIndex: 75
+    spriteID: 0771813f8d10558459ffb4b5ae4d6cef
+    layerID: 745
+    mosaicPosition: {x: 2637, y: 1978}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 1 copy 2
+    spriteName: Forma 1 copy 2
+    isGroup: 0
+    parentIndex: 75
+    spriteID: 3f94c77130d25f74facfe34ee99c14eb
+    layerID: 744
+    mosaicPosition: {x: 2637, y: 2038}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 1 copy 3
+    spriteName: Forma 1 copy 3
+    isGroup: 0
+    parentIndex: 75
+    spriteID: 0a49325a7f1348447899e9ad5728026b
+    layerID: 743
+    mosaicPosition: {x: 2637, y: 2098}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 1 copy 4
+    spriteName: Forma 1 copy 4
+    isGroup: 0
+    parentIndex: 75
+    spriteID: 1380157c97a070e43b0dd03052b014b2
+    layerID: 742
+    mosaicPosition: {x: 2637, y: 2158}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 1
+    spriteName: Forma 1
+    isGroup: 0
+    parentIndex: 75
+    spriteID: fee0bdad7b9712b4e820718544e16c22
+    layerID: 741
+    mosaicPosition: {x: 2637, y: 2576}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Instructions
+    spriteName: Instructions
+    isGroup: 0
+    parentIndex: 73
+    spriteID: 81dbab9e87a001046ab8fae039aa3b28
+    layerID: 739
+    mosaicPosition: {x: 2160, y: 2386}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Page
+    spriteName: Page
+    isGroup: 0
+    parentIndex: 73
+    spriteID: 92a694b8b7ba7c648839e77e4fcbda35
+    layerID: 738
+    mosaicPosition: {x: 4, y: 3120}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Page 3 EN
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 94a9ecce02a3b68428264efd3cdf1c71
+    layerID: 422
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Title
+    spriteName: Title
+    isGroup: 0
+    parentIndex: 90
+    spriteID: b5dbbc046af24f446a034cadc9c6901e
+    layerID: 421
+    mosaicPosition: {x: 3097, y: 955}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Table
+    spriteName: 
+    isGroup: 1
+    parentIndex: 90
+    spriteID: 9bb01a2811ca8514db01c4cf6f307583
+    layerID: 419
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Forma 2 copy
+    spriteName: Forma 2 copy
+    isGroup: 0
+    parentIndex: 92
+    spriteID: 1bf6000551ac5bd44951bcf10944d418
+    layerID: 418
+    mosaicPosition: {x: 2102, y: 2341}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 2
+    spriteName: Forma 2
+    isGroup: 0
+    parentIndex: 92
+    spriteID: c442837d5a116124c8016680899bb624
+    layerID: 417
+    mosaicPosition: {x: 2102, y: 2600}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Odd                Odd                    FLAT
+    spriteName: Odd                Odd                    FLAT
+    isGroup: 0
+    parentIndex: 92
+    spriteID: 72a75b5ef6b18644ab7f0bd4ee3bca84
+    layerID: 416
+    mosaicPosition: {x: 3567, y: 1099}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Even               Even                 DUPLEX
+    spriteName: Even               Even                 DUPLEX
+    isGroup: 0
+    parentIndex: 92
+    spriteID: 7f3d9861a57824045b3a1b2170d81bbe
+    layerID: 415
+    mosaicPosition: {x: 3567, y: 835}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Odd                Even               BUNGALOW
+    spriteName: Odd                Even               BUNGALOW
+    isGroup: 0
+    parentIndex: 92
+    spriteID: a1f5da69d208f8140a4f5decdfc66057
+    layerID: 414
+    mosaicPosition: {x: 3567, y: 616}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Even                Odd                MANSION
+    spriteName: Even                Odd                MANSION
+    isGroup: 0
+    parentIndex: 92
+    spriteID: a34c92c54a3c370429c3496fddbf1b9d
+    layerID: 413
+    mosaicPosition: {x: 3567, y: 786}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: 3rd digit          4th digit              HOME
+    spriteName: 3rd digit          4th digit              HOME
+    isGroup: 0
+    parentIndex: 92
+    spriteID: 425be24aa004e6f4aa38d89dedfb78aa
+    layerID: 412
+    mosaicPosition: {x: 3567, y: 183}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 1 copy
+    spriteName: Forma 1 copy
+    isGroup: 0
+    parentIndex: 92
+    spriteID: b5d1cd75a66ddcf40abdd9cbfbcffe1f
+    layerID: 411
+    mosaicPosition: {x: 2637, y: 2218}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 1 copy 2
+    spriteName: Forma 1 copy 2
+    isGroup: 0
+    parentIndex: 92
+    spriteID: 2e7684bc457eb51489a2f65ce521084f
+    layerID: 410
+    mosaicPosition: {x: 2637, y: 2278}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 1 copy 3
+    spriteName: Forma 1 copy 3
+    isGroup: 0
+    parentIndex: 92
+    spriteID: 300cd18ee2bc7594c870c60f3f821e78
+    layerID: 409
+    mosaicPosition: {x: 2637, y: 2338}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 1 copy 4
+    spriteName: Forma 1 copy 4
+    isGroup: 0
+    parentIndex: 92
+    spriteID: 69ec8db51f4b4b941b0f753758cf8f8f
+    layerID: 408
+    mosaicPosition: {x: 2637, y: 2398}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 1
+    spriteName: Forma 1
+    isGroup: 0
+    parentIndex: 92
+    spriteID: 686a42f9270697f49b8561816cccb626
+    layerID: 407
+    mosaicPosition: {x: 2637, y: 2635}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Instructions
+    spriteName: Instructions
+    isGroup: 0
+    parentIndex: 90
+    spriteID: cc8123c4ab9d7724e8238bf96d8141c9
+    layerID: 420
+    mosaicPosition: {x: 1621, y: 3555}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Page
+    spriteName: Page
+    isGroup: 0
+    parentIndex: 90
+    spriteID: 2831f720142db64439a319aaee6e849d
+    layerID: 405
+    mosaicPosition: {x: 543, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Page 4 ES
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 32a3b8c0478478d4ab45a7c5c958475f
+    layerID: 678
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Title
+    spriteName: Title
+    isGroup: 0
+    parentIndex: 107
+    spriteID: a1b2acfd6b720c845a5c04bf94d02281
+    layerID: 677
+    mosaicPosition: {x: 3097, y: 633}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Instructions
+    spriteName: Instructions
+    isGroup: 0
+    parentIndex: 107
+    spriteID: 709e2b3b820cf454bb4fafb54475fa71
+    layerID: 676
+    mosaicPosition: {x: 2160, y: 3519}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Page
+    spriteName: Page
+    isGroup: 0
+    parentIndex: 107
+    spriteID: 5af6addb8f0219648a2b60ba743d203d
+    layerID: 675
+    mosaicPosition: {x: 543, y: 783}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Page 4 EN
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 1922c45b10f2d424ba11a9eab9be673b
+    layerID: 451
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Title
+    spriteName: Title
+    isGroup: 0
+    parentIndex: 111
+    spriteID: e07b127f5c1175f46afb6b2eb09c466f
+    layerID: 450
+    mosaicPosition: {x: 3097, y: 490}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Instructions
+    spriteName: Instructions
+    isGroup: 0
+    parentIndex: 111
+    spriteID: 1c30906c60a6665439e7323260e88488
+    layerID: 449
+    mosaicPosition: {x: 2160, y: 1221}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Page
+    spriteName: Page
+    isGroup: 0
+    parentIndex: 111
+    spriteID: 64dbdbde30f504f43be51865d9c8bac4
+    layerID: 448
+    mosaicPosition: {x: 543, y: 1562}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Page 5 ES
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 38bf379f29f0e6f44bbce5eca3080b82
+    layerID: 683
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Title
+    spriteName: Title
+    isGroup: 0
+    parentIndex: 115
+    spriteID: 5f657915ade0e2347896f5402529352f
+    layerID: 682
+    mosaicPosition: {x: 3097, y: 670}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Instructions
+    spriteName: Instructions
+    isGroup: 0
+    parentIndex: 115
+    spriteID: 08695c80b9c2ec045b5d6804930f051a
+    layerID: 681
+    mosaicPosition: {x: 2160, y: 1821}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Page
+    spriteName: Page
+    isGroup: 0
+    parentIndex: 115
+    spriteID: af731fcbdc5b0ea4a8527d5e2698c7fe
+    layerID: 680
+    mosaicPosition: {x: 543, y: 2341}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Page 5 EN
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 5bdcf34bc297a504aac179c76e251dec
+    layerID: 456
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Title
+    spriteName: Title
+    isGroup: 0
+    parentIndex: 119
+    spriteID: 9bb1169ec73c748479c28e8726c141c4
+    layerID: 455
+    mosaicPosition: {x: 3567, y: 1339}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Instructions
+    spriteName: Instructions
+    isGroup: 0
+    parentIndex: 119
+    spriteID: f1e24a2399a849245bf5d3eb2eee3c5a
+    layerID: 454
+    mosaicPosition: {x: 2160, y: 2955}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Page
+    spriteName: Page
+    isGroup: 0
+    parentIndex: 119
+    spriteID: e0975eff693e56b4ba79cb79dacba0b1
+    layerID: 453
+    mosaicPosition: {x: 543, y: 3120}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Page 6 ES
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: a61edb701f7c3d5438161e3b1013918e
+    layerID: 688
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Title
+    spriteName: Title
+    isGroup: 0
+    parentIndex: 123
+    spriteID: ab1e5451045ec4944905fb2218c7e597
+    layerID: 687
+    mosaicPosition: {x: 3097, y: 535}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Instructions
+    spriteName: Instructions
+    isGroup: 0
+    parentIndex: 123
+    spriteID: 18a223cbe9dfac940ac519e90fcd5cd6
+    layerID: 686
+    mosaicPosition: {x: 2160, y: 609}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Page
+    spriteName: Page
+    isGroup: 0
+    parentIndex: 123
+    spriteID: 9a961d518e6aa68478590698301348ff
+    layerID: 685
+    mosaicPosition: {x: 1082, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Page 6 EN
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 0cb206fdedb0a7948b1d2e3f696dd444
+    layerID: 471
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Title
+    spriteName: Title
+    isGroup: 0
+    parentIndex: 127
+    spriteID: bd471d53c2ed8014689f39ed34999115
+    layerID: 470
+    mosaicPosition: {x: 2637, y: 2914}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Instructions
+    spriteName: Instructions
+    isGroup: 0
+    parentIndex: 127
+    spriteID: 09fecf88b2677fe4bb0cbedb8c0a2aa8
+    layerID: 469
+    mosaicPosition: {x: 2160, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Page
+    spriteName: Page
+    isGroup: 0
+    parentIndex: 127
+    spriteID: a1a60cbaab331f34399e7ca636a266a1
+    layerID: 468
+    mosaicPosition: {x: 1082, y: 783}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Page 7 ES
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 8c3dbbb680384644d9b3eeac23c925dc
+    layerID: 693
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Title
+    spriteName: Title
+    isGroup: 0
+    parentIndex: 131
+    spriteID: 75cc14692fd5d6446bca1c8397ff627a
+    layerID: 692
+    mosaicPosition: {x: 3097, y: 584}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Instructions
+    spriteName: Instructions
+    isGroup: 0
+    parentIndex: 131
+    spriteID: 76d9867941c059d4aa478b6b291974eb
+    layerID: 691
+    mosaicPosition: {x: 1621, y: 2948}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Page
+    spriteName: Page
+    isGroup: 0
+    parentIndex: 131
+    spriteID: e3347921b2a60f24da1ff7746b03d3ae
+    layerID: 690
+    mosaicPosition: {x: 1082, y: 1562}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Page 7 EN
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: d5dbddda74011be41b2dc14818592aa1
+    layerID: 656
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Title
+    spriteName: Title
+    isGroup: 0
+    parentIndex: 135
+    spriteID: 65618063e08aa4646995b8c19298e5cd
+    layerID: 655
+    mosaicPosition: {x: 2637, y: 2963}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Instructions
+    spriteName: Instructions
+    isGroup: 0
+    parentIndex: 135
+    spriteID: 951459f334998c44181ccce3c9f81679
+    layerID: 654
+    mosaicPosition: {x: 1621, y: 2341}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Page
+    spriteName: Page
+    isGroup: 0
+    parentIndex: 135
+    spriteID: a7c768d47cd59664f867614b6985f731
+    layerID: 653
+    mosaicPosition: {x: 1082, y: 2341}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Page 8 ES
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 136e182097faf394995d605683b189ee
+    layerID: 728
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Title
+    spriteName: Title
+    isGroup: 0
+    parentIndex: 139
+    spriteID: 55d0771e9068c5146bba758ddfa0209d
+    layerID: 727
+    mosaicPosition: {x: 2637, y: 2694}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Instructions
+    spriteName: Instructions
+    isGroup: 0
+    parentIndex: 139
+    spriteID: cf42aab1227aec44e94c3382144efd49
+    layerID: 726
+    mosaicPosition: {x: 2637, y: 376}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Table
+    spriteName: 
+    isGroup: 1
+    parentIndex: 139
+    spriteID: 4120e3884d6bb3c48a770b05ccbb5132
+    layerID: 725
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Forma 2
+    spriteName: Forma 2
+    isGroup: 0
+    parentIndex: 142
+    spriteID: c4c2d5e1fb491fc4cbd9b3c9e9caaf1c
+    layerID: 724
+    mosaicPosition: {x: 2100, y: 3555}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: CAJERO          5
+    spriteName: CAJERO          5
+    isGroup: 0
+    parentIndex: 142
+    spriteID: dd9be307c9853f24289a10d37af7292e
+    layerID: 723
+    mosaicPosition: {x: 3567, y: 1219}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: POLICIA          4
+    spriteName: POLICIA          4
+    isGroup: 0
+    parentIndex: 142
+    spriteID: 24b56ae743e25024f9f122f664df6d34
+    layerID: 722
+    mosaicPosition: {x: 3567, y: 1123}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: BOMBERO          3
+    spriteName: BOMBERO          3
+    isGroup: 0
+    parentIndex: 142
+    spriteID: b758a34c9794ad646a345f32a347e965
+    layerID: 721
+    mosaicPosition: {x: 3567, y: 1267}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: PROFESOR          2
+    spriteName: PROFESOR          2
+    isGroup: 0
+    parentIndex: 142
+    spriteID: 62d2b97c8d1bbc04e94abc950c3c209f
+    layerID: 720
+    mosaicPosition: {x: 3567, y: 713}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: PANADERO          6
+    spriteName: PANADERO          6
+    isGroup: 0
+    parentIndex: 142
+    spriteID: 5df8a65f00439c84d83cff5aa59f42f9
+    layerID: 719
+    mosaicPosition: {x: 3567, y: 1171}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: "Trabajo          N\xFAmero"
+    spriteName: "Trabajo          N\xFAmero"
+    isGroup: 0
+    parentIndex: 142
+    spriteID: c689bbf5b0e30ee49896b53b3dcc5593
+    layerID: 718
+    mosaicPosition: {x: 2637, y: 4065}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: "MEC\xC1NICO          1"
+    spriteName: "MEC\xC1NICO          1"
+    isGroup: 0
+    parentIndex: 142
+    spriteID: 8f51bec071bf1704e827250722b5f8e9
+    layerID: 717
+    mosaicPosition: {x: 3567, y: 242}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 1 copy
+    spriteName: Forma 1 copy
+    isGroup: 0
+    parentIndex: 142
+    spriteID: 7eb33479f15c61a4d84aafea911696cc
+    layerID: 716
+    mosaicPosition: {x: 2637, y: 3012}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 1 copy 2
+    spriteName: Forma 1 copy 2
+    isGroup: 0
+    parentIndex: 142
+    spriteID: 2aba54a2e534c0c40825a477818c158e
+    layerID: 715
+    mosaicPosition: {x: 2637, y: 3058}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 1 copy 3
+    spriteName: Forma 1 copy 3
+    isGroup: 0
+    parentIndex: 142
+    spriteID: 3768cf74b9692bb48abedf244c3f431f
+    layerID: 714
+    mosaicPosition: {x: 2637, y: 3104}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 1 copy 4
+    spriteName: Forma 1 copy 4
+    isGroup: 0
+    parentIndex: 142
+    spriteID: 56e4bdf6668379740ab3029a41518d9d
+    layerID: 713
+    mosaicPosition: {x: 2637, y: 3840}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 1 copy 5
+    spriteName: Forma 1 copy 5
+    isGroup: 0
+    parentIndex: 142
+    spriteID: 92b8c2ec1550fb4459305914b9c345f2
+    layerID: 712
+    mosaicPosition: {x: 2637, y: 3150}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 1 copy 6
+    spriteName: Forma 1 copy 6
+    isGroup: 0
+    parentIndex: 142
+    spriteID: 71533adf00a32f747b7044ffe51ce4a6
+    layerID: 711
+    mosaicPosition: {x: 2637, y: 3196}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 1
+    spriteName: Forma 1
+    isGroup: 0
+    parentIndex: 142
+    spriteID: 760046a8142bdb543af5c90badbb80a7
+    layerID: 710
+    mosaicPosition: {x: 2637, y: 3885}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Table 2
+    spriteName: 
+    isGroup: 1
+    parentIndex: 139
+    spriteID: 4ae67e29a35e9024485b5662aff7245f
+    layerID: 708
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Forma 2
+    spriteName: Forma 2
+    isGroup: 0
+    parentIndex: 158
+    spriteID: 045a5da4046d6024689bf659869f922e
+    layerID: 707
+    mosaicPosition: {x: 2114, y: 2341}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: VIUDO            9
+    spriteName: VIUDO            9
+    isGroup: 0
+    parentIndex: 158
+    spriteID: e22e7d9afbe4d884f944ea3701353e4f
+    layerID: 706
+    mosaicPosition: {x: 3567, y: 979}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: CASADO            8
+    spriteName: CASADO            8
+    isGroup: 0
+    parentIndex: 158
+    spriteID: ba914472b8529574faae25a527826ef6
+    layerID: 705
+    mosaicPosition: {x: 3567, y: 1003}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DIVORCIADO          7
+    spriteName: DIVORCIADO          7
+    isGroup: 0
+    parentIndex: 158
+    spriteID: 360ca233e1fe1ee4b84df143dfaa13f3
+    layerID: 704
+    mosaicPosition: {x: 3567, y: 883}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: "Estado Civil         N\xFAmero"
+    spriteName: "Estado Civil         N\xFAmero"
+    isGroup: 0
+    parentIndex: 158
+    spriteID: be30fc02211cdd14181511a75f59a4ee
+    layerID: 703
+    mosaicPosition: {x: 3567, y: 423}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: SOLTERO / COMPROMETIDO      0
+    spriteName: SOLTERO / COMPROMETIDO      0
+    isGroup: 0
+    parentIndex: 158
+    spriteID: 54a3aaaca416013488bf2077eebec645
+    layerID: 702
+    mosaicPosition: {x: 3567, y: 907}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 1 copy
+    spriteName: Forma 1 copy
+    isGroup: 0
+    parentIndex: 158
+    spriteID: 622e32f655cfd184d80a45cc89327f04
+    layerID: 701
+    mosaicPosition: {x: 2637, y: 3242}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 1 copy 2
+    spriteName: Forma 1 copy 2
+    isGroup: 0
+    parentIndex: 158
+    spriteID: 710058feda70695438113d1cc3ac2ede
+    layerID: 700
+    mosaicPosition: {x: 2637, y: 3288}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 1 copy 3
+    spriteName: Forma 1 copy 3
+    isGroup: 0
+    parentIndex: 158
+    spriteID: 2a7a12fb4026b864497a66dfd85b17dc
+    layerID: 699
+    mosaicPosition: {x: 2637, y: 3334}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 1 copy 6
+    spriteName: Forma 1 copy 6
+    isGroup: 0
+    parentIndex: 158
+    spriteID: 69dbd5986b151ae4fb70c2285323d9e0
+    layerID: 698
+    mosaicPosition: {x: 2637, y: 3380}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 1
+    spriteName: Forma 1
+    isGroup: 0
+    parentIndex: 158
+    spriteID: 7fc88b15cb2d431419af43022bad4746
+    layerID: 697
+    mosaicPosition: {x: 2637, y: 3930}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Page
+    spriteName: Page
+    isGroup: 0
+    parentIndex: 139
+    spriteID: 6ec6dd1183d10884c9be7e7fbe2a1b51
+    layerID: 695
+    mosaicPosition: {x: 1082, y: 3120}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Page 8 EN
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 29287abfb28c485488cbd277c307625e
+    layerID: 514
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Title
+    spriteName: Title
+    isGroup: 0
+    parentIndex: 171
+    spriteID: e60b9d82b049d434a9c1dda8012d4763
+    layerID: 513
+    mosaicPosition: {x: 2637, y: 2749}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Instructions
+    spriteName: Instructions
+    isGroup: 0
+    parentIndex: 171
+    spriteID: 591713b0f9e39224f9cbb92011fb65a1
+    layerID: 512
+    mosaicPosition: {x: 2637, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Table
+    spriteName: 
+    isGroup: 1
+    parentIndex: 171
+    spriteID: 41b89465ded30be4f92909cf25d176c2
+    layerID: 511
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Forma 2
+    spriteName: Forma 2
+    isGroup: 0
+    parentIndex: 174
+    spriteID: f068e0a5b024cb94f8d8bff5a2c0217e
+    layerID: 510
+    mosaicPosition: {x: 2100, y: 3815}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: CASHIER          5
+    spriteName: CASHIER          5
+    isGroup: 0
+    parentIndex: 174
+    spriteID: b2492c59f2771ef4c835cf50afa390ce
+    layerID: 509
+    mosaicPosition: {x: 3567, y: 1243}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: POLICEMAN          4
+    spriteName: POLICEMAN          4
+    isGroup: 0
+    parentIndex: 174
+    spriteID: 30e74acc0461eb245af470cc6873af8c
+    layerID: 508
+    mosaicPosition: {x: 3567, y: 1147}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: FIREFIGHTER         3
+    spriteName: FIREFIGHTER         3
+    isGroup: 0
+    parentIndex: 174
+    spriteID: 6abef533c197bc1478ed8ffa2dc1d1d2
+    layerID: 507
+    mosaicPosition: {x: 3567, y: 1291}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: TEACHER          2
+    spriteName: TEACHER          2
+    isGroup: 0
+    parentIndex: 174
+    spriteID: d67807d1891139c4191bcadd53b949c6
+    layerID: 506
+    mosaicPosition: {x: 3567, y: 688}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: BAKER           6
+    spriteName: BAKER           6
+    isGroup: 0
+    parentIndex: 174
+    spriteID: 4baaa926a7f169647b4f55436ecccecd
+    layerID: 516
+    mosaicPosition: {x: 3567, y: 1195}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Job           Number
+    spriteName: Job           Number
+    isGroup: 0
+    parentIndex: 174
+    spriteID: 03eb81a595368e74aa2c4303d4c3951d
+    layerID: 635
+    mosaicPosition: {x: 3567, y: 447}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: MECHANIC          1
+    spriteName: MECHANIC          1
+    isGroup: 0
+    parentIndex: 174
+    spriteID: afac1c5aae3125745a04de37c98209ac
+    layerID: 505
+    mosaicPosition: {x: 3567, y: 1315}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 1 copy
+    spriteName: Forma 1 copy
+    isGroup: 0
+    parentIndex: 174
+    spriteID: 496433825bc993141b074675202714d2
+    layerID: 504
+    mosaicPosition: {x: 2637, y: 3426}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 1 copy 2
+    spriteName: Forma 1 copy 2
+    isGroup: 0
+    parentIndex: 174
+    spriteID: b16b7f6c57b85404e8528d06909180e0
+    layerID: 503
+    mosaicPosition: {x: 2637, y: 3472}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 1 copy 3
+    spriteName: Forma 1 copy 3
+    isGroup: 0
+    parentIndex: 174
+    spriteID: 4d5ca9dfdfbf5984ab28d10b3032b31a
+    layerID: 502
+    mosaicPosition: {x: 2637, y: 3518}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 1 copy 4
+    spriteName: Forma 1 copy 4
+    isGroup: 0
+    parentIndex: 174
+    spriteID: 740946f89976db3438557f0330698992
+    layerID: 501
+    mosaicPosition: {x: 2637, y: 3975}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 1 copy 5
+    spriteName: Forma 1 copy 5
+    isGroup: 0
+    parentIndex: 174
+    spriteID: e6ebbd54286537149951f5a64e2c9be3
+    layerID: 515
+    mosaicPosition: {x: 2637, y: 3564}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 1 copy 6
+    spriteName: Forma 1 copy 6
+    isGroup: 0
+    parentIndex: 174
+    spriteID: 6c2f14c51ce1b7d4687cd3377c13e847
+    layerID: 634
+    mosaicPosition: {x: 2637, y: 3610}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 1
+    spriteName: Forma 1
+    isGroup: 0
+    parentIndex: 174
+    spriteID: 3c811b5d598287c418310aa6574d4936
+    layerID: 500
+    mosaicPosition: {x: 2637, y: 4020}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Table 2
+    spriteName: 
+    isGroup: 1
+    parentIndex: 171
+    spriteID: 770dfcd9e3efa2d4c802b199a15237c6
+    layerID: 673
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Forma 2
+    spriteName: Forma 2
+    isGroup: 0
+    parentIndex: 190
+    spriteID: 242a8ea662845e34f8c38d1d4771988d
+    layerID: 672
+    mosaicPosition: {x: 2114, y: 2529}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: WIDOWED           9
+    spriteName: WIDOWED           9
+    isGroup: 0
+    parentIndex: 190
+    spriteID: 66b78383aa561354fa38e3fb4f6e3a64
+    layerID: 670
+    mosaicPosition: {x: 3567, y: 1027}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: MARRIED            8
+    spriteName: MARRIED            8
+    isGroup: 0
+    parentIndex: 190
+    spriteID: 085e6368898ed534197b683c6ccaa5eb
+    layerID: 669
+    mosaicPosition: {x: 3567, y: 1051}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DIVORCED           7
+    spriteName: DIVORCED           7
+    isGroup: 0
+    parentIndex: 190
+    spriteID: 19c8c06cf08034f408648b4eaace6570
+    layerID: 668
+    mosaicPosition: {x: 3567, y: 931}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Marital Status        Number
+    spriteName: Marital Status        Number
+    isGroup: 0
+    parentIndex: 190
+    spriteID: 72be5b75f2d4dd5439eac54ed7ee47b3
+    layerID: 666
+    mosaicPosition: {x: 3567, y: 471}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: SINGLE/ENGAGED         0
+    spriteName: SINGLE/ENGAGED         0
+    isGroup: 0
+    parentIndex: 190
+    spriteID: abd3e68e250e77b40a419c27ef47f40f
+    layerID: 665
+    mosaicPosition: {x: 3567, y: 955}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 1 copy
+    spriteName: Forma 1 copy
+    isGroup: 0
+    parentIndex: 190
+    spriteID: 89dca65865c4bfe40b31c1a7e3e9a37f
+    layerID: 664
+    mosaicPosition: {x: 2637, y: 3656}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 1 copy 2
+    spriteName: Forma 1 copy 2
+    isGroup: 0
+    parentIndex: 190
+    spriteID: d37326a192f72c244bac172d008a4f4e
+    layerID: 663
+    mosaicPosition: {x: 2637, y: 3702}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 1 copy 3
+    spriteName: Forma 1 copy 3
+    isGroup: 0
+    parentIndex: 190
+    spriteID: a41b5abf9cc99be41ad3db79ec0e7052
+    layerID: 662
+    mosaicPosition: {x: 2637, y: 3748}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 1 copy 6
+    spriteName: Forma 1 copy 6
+    isGroup: 0
+    parentIndex: 190
+    spriteID: 8e22fe29f5c323c4195d67ac2ac75a35
+    layerID: 659
+    mosaicPosition: {x: 2637, y: 3794}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Forma 1
+    spriteName: Forma 1
+    isGroup: 0
+    parentIndex: 190
+    spriteID: 988be7617aeb6e9468b9690a0daa0f18
+    layerID: 658
+    mosaicPosition: {x: 3097, y: 445}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Page
+    spriteName: Page
+    isGroup: 0
+    parentIndex: 171
+    spriteID: 53a15c0ecaf952a4695d1a44d413d067
+    layerID: 498
+    mosaicPosition: {x: 1621, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Page 9 ES
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 052664b5755dcef439a39ee842740a67
+    layerID: 733
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Title
+    spriteName: Title
+    isGroup: 0
+    parentIndex: 203
+    spriteID: e78a5eab7868d4a4c8cfbcfd229b62cd
+    layerID: 732
+    mosaicPosition: {x: 2637, y: 2804}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Instructions
+    spriteName: Instructions
+    isGroup: 0
+    parentIndex: 203
+    spriteID: c0074a1facdf3db43b04918c9560a023
+    layerID: 731
+    mosaicPosition: {x: 2637, y: 973}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Page
+    spriteName: Page
+    isGroup: 0
+    parentIndex: 203
+    spriteID: f41c2adf421e0dd4ea436dcc8b847fbc
+    layerID: 730
+    mosaicPosition: {x: 1621, y: 783}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Page 9 EN
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 646637d58d201b04684ef0db86a441ea
+    layerID: 552
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Title
+    spriteName: Title
+    isGroup: 0
+    parentIndex: 207
+    spriteID: 248d205573acd08458210c32aeb64d62
+    layerID: 551
+    mosaicPosition: {x: 2637, y: 2859}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Instructions
+    spriteName: Instructions
+    isGroup: 0
+    parentIndex: 207
+    spriteID: 209cad9384505d84681b746717f6ca4f
+    layerID: 550
+    mosaicPosition: {x: 2637, y: 748}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Page
+    spriteName: Page
+    isGroup: 0
+    parentIndex: 207
+    spriteID: d3e3b8bf05a66a746b80233c65116db5
+    layerID: 538
+    mosaicPosition: {x: 1621, y: 1562}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  sharedRigPSDLayers: []
+  pSDLayerImportSetting:
+  - spriteId: 9701e1f3197b71d49a7b745f1d19bfbc
+    name: Manual
+    layerId: 275
+    flatten: 0
+    isGroup: 1
+    importLayer: 1
+  - spriteId: 802669d925d31f843bc6286791151c6a
+    name: Page 1 ES
+    layerId: 795
+    flatten: 0
+    isGroup: 1
+    importLayer: 1
+  - spriteId: c784240dcd8435742bbbfb07f524df9d
+    name: Title
+    layerId: 794
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: ab1f7036f3323314b8296801339702f5
+    name: Instructions
+    layerId: 793
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 203b0b2986d2d594d885507ee681e887
+    name: Table
+    layerId: 792
+    flatten: 0
+    isGroup: 1
+    importLayer: 1
+  - spriteId: 003d41aba1d7f03479ad277658084555
+    name: Forma 2
+    layerId: 791
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 15de58db3ea4c904ca51201bde799e8f
+    name: Forma 2
+    layerId: 790
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 5c48971469e04d74d9d627e3ef52665b
+    name: Forma 2
+    layerId: 789
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: ac60582afbddb4d43bc1e0a73a2a6950
+    name: Toledo          23-30      47-54      89-92
+    layerId: 788
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 131a70cd1ab4f6248861a0e66c23cf26
+    name: "C\xE1diz           09-15       65-70      75-81"
+    layerId: 787
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: ecc98d23a5ada094b8ea0ebf267d9eec
+    name: Sevilla          16-22       41-46     82-88
+    layerId: 786
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 13602447464143a46b435e052a544184
+    name: Lebrija          31-40       71-74      94-99
+    layerId: 785
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: aa0ba4c6bf749c64a8efb262e977c231
+    name: Madrid          00-08      55-64         93
+    layerId: 784
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: bbf2ef5979494964ca41442145a5a9b8
+    name: Forma 1 copy
+    layerId: 783
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 4c1af2a1937f36747bc553b032298641
+    name: Forma 1 copy 2
+    layerId: 782
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 0e95543ca4bdac84fa28dcb0000667a4
+    name: Forma 1 copy 3
+    layerId: 781
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 81297c2a79429e44489c37b411e29683
+    name: Forma 1 copy 4
+    layerId: 780
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 859759717e4fa9c419987bde805abb37
+    name: Forma 1
+    layerId: 779
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 1b3cbee35e5764445919336dd844ae4d
+    name: Instructions
+    layerId: 777
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 29dca9cd127633040a68a116f567a5c7
+    name: Page
+    layerId: 776
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: de2c09a2374da6c46ac67d6b7e5e6dc2
+    name: Title
+    layerId: 363
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 5e507f3839899ed48a97ba288ad17224
+    name: Instructions
+    layerId: 367
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 770e7a248b397134d86d532655087e8f
+    name: Table
+    layerId: 379
+    flatten: 0
+    isGroup: 1
+    importLayer: 1
+  - spriteId: 9c6ad0507cc79b742be0b40de9685237
+    name: Forma 2
+    layerId: 735
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 955b076710181ff44b0783cf74adb2cb
+    name: Forma 2
+    layerId: 734
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 8227eb1766194c444b8b8bccc0a191e3
+    name: Forma 2
+    layerId: 384
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 9dec26dd1da375b45a7cb365b112bf76
+    name: Toledo          23-30      47-54      89-92
+    layerId: 383
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: a498c6fabbf651541ba5a9adc4c78a5f
+    name: "C\xE1diz           09-15       65-70      75-81"
+    layerId: 382
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 8f081692a88e6f148a5c5180a6b653de
+    name: Sevilla          16-22       41-46     82-88
+    layerId: 381
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 0f58f72e8381ef74581b820775a5445c
+    name: Lebrija          31-40       71-74      94-99
+    layerId: 378
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: e0341a284038240489f6a16d73558af0
+    name: Madrid          00-08      55-64         93
+    layerId: 377
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 6c99e21d721cbe54b93750a79c033253
+    name: Forma 1 copy
+    layerId: 373
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 12567c6966cd56743bb21fbdae299d62
+    name: Forma 1 copy 2
+    layerId: 374
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 894e2643a2db96f4cb956e4bbf44bc50
+    name: Forma 1 copy 3
+    layerId: 375
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: f90134292f1cac54ba216072f0b51eb4
+    name: Forma 1 copy 4
+    layerId: 376
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 2a138f3889418f542b42ef6e698c1e4a
+    name: Forma 1
+    layerId: 372
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: ec732948b6c18a2479c63cf4e0e3521c
+    name: Instructions
+    layerId: 736
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 1bfe378f3951c6048ac616d1a54f3f2e
+    name: Page
+    layerId: 274
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: f08b33e8dc1211646bc0a3ecdad78126
+    name: Title
+    layerId: 773
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 6ece56a140caf1a4abde11d1c8403334
+    name: Instructions
+    layerId: 772
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 842c5f06f53316b4ebf4d8a8c464f060
+    name: Table copy
+    layerId: 771
+    flatten: 0
+    isGroup: 1
+    importLayer: 1
+  - spriteId: d9f71fdb5ef90b64a8de274dd8c1b4e6
+    name: Forma 2 copy
+    layerId: 770
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 9efee7d09a227cd4c8411a0ef5caf26d
+    name: Forma 2
+    layerId: 769
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: b57bdb1800d797240b0b3da984e69e5b
+    name: "IMPAR            IMPAR            MANSI\xD3N"
+    layerId: 768
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: c9c05a51ce7521340a5bd2ba77c80b08
+    name: PAR                PAR            BUNGALOW
+    layerId: 767
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 37190273c9acbed4b9895975629c5281
+    name: IMPAR              PAR                FLAT
+    layerId: 766
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: ee6a7cfd35801414aa78bbfa5bcc0841
+    name: PAR              IMPAR            DUPLEX
+    layerId: 765
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 91bc4d124bfc4c2458c3b2b3748a7d7c
+    name: "3r d\xEDgito       4to d\xEDgito           CASA"
+    layerId: 764
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: b93edfaab9aba824e81f230a6123dcc5
+    name: Forma 1 copy
+    layerId: 763
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 8ac320734a6ff6940aa50b0d3067aa57
+    name: Forma 1 copy 2
+    layerId: 762
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: a881ccb051506584b85220e641b48551
+    name: Forma 1 copy 3
+    layerId: 761
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: eff261434947faf478c97472cb3940f9
+    name: Forma 1 copy 4
+    layerId: 760
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 753ae2e923db1ae469196d51cb090e6e
+    name: Forma 1
+    layerId: 759
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 3c095c8a29c37c74eb1ec6c405ec20b4
+    name: Page
+    layerId: 757
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: e8779eb791f6d3e42b665fe2424180b2
+    name: Title
+    layerId: 401
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: f0141e378aaa98a4f8f0a6c7d3bd3fef
+    name: Instructions
+    layerId: 400
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: b4dad335eceffbd44a0b3768fc601842
+    name: Table copy
+    layerId: 651
+    flatten: 0
+    isGroup: 1
+    importLayer: 1
+  - spriteId: 2ca21f21280cfcc4fbce605db97c6b5c
+    name: Forma 2 copy
+    layerId: 650
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: bbe3c8aa291fb1e46b8f02c684662f9b
+    name: Forma 2
+    layerId: 649
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 59780e3004c210f4991bc60c3492a997
+    name: Odd               Odd             MANSION
+    layerId: 648
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 88d3b4db114ed3d418beab959eb45d17
+    name: Even              Even           BUNGALOW
+    layerId: 647
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: fed1c6678c5eec947ab1d431fa220a79
+    name: Odd               Even               FLAT
+    layerId: 646
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 7f79635761969ad48bd9d81e850ff414
+    name: Even               Odd             DUPLEX
+    layerId: 645
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 46718000aba04cb47bd23602bfe37471
+    name: 3rd digit        4th digit           HOME
+    layerId: 644
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: f16e8fa4eb81d0b4aa106642d32508d2
+    name: Forma 1 copy
+    layerId: 643
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 9cc700fe41ab1704fb3fa24246590989
+    name: Forma 1 copy 2
+    layerId: 642
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 8b05edf4616b2f54baa40bc15e74eb8a
+    name: Forma 1 copy 3
+    layerId: 641
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: fef9a14e6ec65a5468fe350ef8579382
+    name: Forma 1 copy 4
+    layerId: 640
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: f572cac5d0b11df4fb6ce474d31013d1
+    name: Forma 1
+    layerId: 639
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: bc7e1ffeef9f1344696b3a13b7bcedaa
+    name: Page
+    layerId: 386
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 9294861968c7ba04b8a07dc28cea5fb9
+    name: Title
+    layerId: 754
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: ab48ad8c41905d94e90c419354fee404
+    name: Table
+    layerId: 753
+    flatten: 0
+    isGroup: 1
+    importLayer: 1
+  - spriteId: 16fb08d966b62444abc636e0a49caea1
+    name: Forma 2 copy
+    layerId: 752
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 1e4cbd0daaff6b3469b25d6dfd32df29
+    name: Forma 2
+    layerId: 751
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: e46a5b4a24240ed44b1e1c91253e7edf
+    name: IMPAR              IMPAR                 PISO
+    layerId: 750
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 45de88b0c864b5042996bec257235376
+    name: PAR                 PAR                 DUPLEX
+    layerId: 749
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 432bcc79470c038499bd8ea7830359b3
+    name: IMPAR                PAR              BUNGALOW
+    layerId: 748
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 5c76751132467794cae4c1572368a248
+    name: "PAR                IMPAR             MANSI\xD3N"
+    layerId: 747
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 86fdbfb67c6d5254e8fe6e7ceb37d68f
+    name: "3r d\xEDgito          4to digito             CASA"
+    layerId: 746
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 0771813f8d10558459ffb4b5ae4d6cef
+    name: Forma 1 copy
+    layerId: 745
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 3f94c77130d25f74facfe34ee99c14eb
+    name: Forma 1 copy 2
+    layerId: 744
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 0a49325a7f1348447899e9ad5728026b
+    name: Forma 1 copy 3
+    layerId: 743
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 1380157c97a070e43b0dd03052b014b2
+    name: Forma 1 copy 4
+    layerId: 742
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: fee0bdad7b9712b4e820718544e16c22
+    name: Forma 1
+    layerId: 741
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 81dbab9e87a001046ab8fae039aa3b28
+    name: Instructions
+    layerId: 739
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 92a694b8b7ba7c648839e77e4fcbda35
+    name: Page
+    layerId: 738
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: b5dbbc046af24f446a034cadc9c6901e
+    name: Title
+    layerId: 421
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 9bb01a2811ca8514db01c4cf6f307583
+    name: Table
+    layerId: 419
+    flatten: 0
+    isGroup: 1
+    importLayer: 1
+  - spriteId: 1bf6000551ac5bd44951bcf10944d418
+    name: Forma 2 copy
+    layerId: 418
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: c442837d5a116124c8016680899bb624
+    name: Forma 2
+    layerId: 417
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 72a75b5ef6b18644ab7f0bd4ee3bca84
+    name: Odd                Odd                    FLAT
+    layerId: 416
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 7f3d9861a57824045b3a1b2170d81bbe
+    name: Even               Even                 DUPLEX
+    layerId: 415
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: a1f5da69d208f8140a4f5decdfc66057
+    name: Odd                Even               BUNGALOW
+    layerId: 414
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: a34c92c54a3c370429c3496fddbf1b9d
+    name: Even                Odd                MANSION
+    layerId: 413
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 425be24aa004e6f4aa38d89dedfb78aa
+    name: 3rd digit          4th digit              HOME
+    layerId: 412
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: b5d1cd75a66ddcf40abdd9cbfbcffe1f
+    name: Forma 1 copy
+    layerId: 411
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 2e7684bc457eb51489a2f65ce521084f
+    name: Forma 1 copy 2
+    layerId: 410
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 300cd18ee2bc7594c870c60f3f821e78
+    name: Forma 1 copy 3
+    layerId: 409
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 69ec8db51f4b4b941b0f753758cf8f8f
+    name: Forma 1 copy 4
+    layerId: 408
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 686a42f9270697f49b8561816cccb626
+    name: Forma 1
+    layerId: 407
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: cc8123c4ab9d7724e8238bf96d8141c9
+    name: Instructions
+    layerId: 420
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 2831f720142db64439a319aaee6e849d
+    name: Page
+    layerId: 405
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: a1b2acfd6b720c845a5c04bf94d02281
+    name: Title
+    layerId: 677
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 709e2b3b820cf454bb4fafb54475fa71
+    name: Instructions
+    layerId: 676
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 5af6addb8f0219648a2b60ba743d203d
+    name: Page
+    layerId: 675
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: e07b127f5c1175f46afb6b2eb09c466f
+    name: Title
+    layerId: 450
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 1c30906c60a6665439e7323260e88488
+    name: Instructions
+    layerId: 449
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 64dbdbde30f504f43be51865d9c8bac4
+    name: Page
+    layerId: 448
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 5f657915ade0e2347896f5402529352f
+    name: Title
+    layerId: 682
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 08695c80b9c2ec045b5d6804930f051a
+    name: Instructions
+    layerId: 681
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: af731fcbdc5b0ea4a8527d5e2698c7fe
+    name: Page
+    layerId: 680
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 9bb1169ec73c748479c28e8726c141c4
+    name: Title
+    layerId: 455
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: f1e24a2399a849245bf5d3eb2eee3c5a
+    name: Instructions
+    layerId: 454
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: e0975eff693e56b4ba79cb79dacba0b1
+    name: Page
+    layerId: 453
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: ab1e5451045ec4944905fb2218c7e597
+    name: Title
+    layerId: 687
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 18a223cbe9dfac940ac519e90fcd5cd6
+    name: Instructions
+    layerId: 686
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 9a961d518e6aa68478590698301348ff
+    name: Page
+    layerId: 685
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: bd471d53c2ed8014689f39ed34999115
+    name: Title
+    layerId: 470
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 09fecf88b2677fe4bb0cbedb8c0a2aa8
+    name: Instructions
+    layerId: 469
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: a1a60cbaab331f34399e7ca636a266a1
+    name: Page
+    layerId: 468
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 75cc14692fd5d6446bca1c8397ff627a
+    name: Title
+    layerId: 692
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 76d9867941c059d4aa478b6b291974eb
+    name: Instructions
+    layerId: 691
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: e3347921b2a60f24da1ff7746b03d3ae
+    name: Page
+    layerId: 690
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 65618063e08aa4646995b8c19298e5cd
+    name: Title
+    layerId: 655
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 951459f334998c44181ccce3c9f81679
+    name: Instructions
+    layerId: 654
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: a7c768d47cd59664f867614b6985f731
+    name: Page
+    layerId: 653
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 55d0771e9068c5146bba758ddfa0209d
+    name: Title
+    layerId: 727
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: cf42aab1227aec44e94c3382144efd49
+    name: Instructions
+    layerId: 726
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 4120e3884d6bb3c48a770b05ccbb5132
+    name: Table
+    layerId: 725
+    flatten: 0
+    isGroup: 1
+    importLayer: 1
+  - spriteId: c4c2d5e1fb491fc4cbd9b3c9e9caaf1c
+    name: Forma 2
+    layerId: 724
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: dd9be307c9853f24289a10d37af7292e
+    name: CAJERO          5
+    layerId: 723
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 24b56ae743e25024f9f122f664df6d34
+    name: POLICIA          4
+    layerId: 722
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: b758a34c9794ad646a345f32a347e965
+    name: BOMBERO          3
+    layerId: 721
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 62d2b97c8d1bbc04e94abc950c3c209f
+    name: PROFESOR          2
+    layerId: 720
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 5df8a65f00439c84d83cff5aa59f42f9
+    name: PANADERO          6
+    layerId: 719
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: c689bbf5b0e30ee49896b53b3dcc5593
+    name: "Trabajo          N\xFAmero"
+    layerId: 718
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 8f51bec071bf1704e827250722b5f8e9
+    name: "MEC\xC1NICO          1"
+    layerId: 717
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 7eb33479f15c61a4d84aafea911696cc
+    name: Forma 1 copy
+    layerId: 716
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 2aba54a2e534c0c40825a477818c158e
+    name: Forma 1 copy 2
+    layerId: 715
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 3768cf74b9692bb48abedf244c3f431f
+    name: Forma 1 copy 3
+    layerId: 714
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 56e4bdf6668379740ab3029a41518d9d
+    name: Forma 1 copy 4
+    layerId: 713
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 92b8c2ec1550fb4459305914b9c345f2
+    name: Forma 1 copy 5
+    layerId: 712
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 71533adf00a32f747b7044ffe51ce4a6
+    name: Forma 1 copy 6
+    layerId: 711
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 760046a8142bdb543af5c90badbb80a7
+    name: Forma 1
+    layerId: 710
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 4ae67e29a35e9024485b5662aff7245f
+    name: Table 2
+    layerId: 708
+    flatten: 0
+    isGroup: 1
+    importLayer: 1
+  - spriteId: 045a5da4046d6024689bf659869f922e
+    name: Forma 2
+    layerId: 707
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: e22e7d9afbe4d884f944ea3701353e4f
+    name: VIUDO            9
+    layerId: 706
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: ba914472b8529574faae25a527826ef6
+    name: CASADO            8
+    layerId: 705
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 360ca233e1fe1ee4b84df143dfaa13f3
+    name: DIVORCIADO          7
+    layerId: 704
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: be30fc02211cdd14181511a75f59a4ee
+    name: "Estado Civil         N\xFAmero"
+    layerId: 703
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 54a3aaaca416013488bf2077eebec645
+    name: SOLTERO / COMPROMETIDO      0
+    layerId: 702
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 622e32f655cfd184d80a45cc89327f04
+    name: Forma 1 copy
+    layerId: 701
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 710058feda70695438113d1cc3ac2ede
+    name: Forma 1 copy 2
+    layerId: 700
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 2a7a12fb4026b864497a66dfd85b17dc
+    name: Forma 1 copy 3
+    layerId: 699
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 69dbd5986b151ae4fb70c2285323d9e0
+    name: Forma 1 copy 6
+    layerId: 698
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 7fc88b15cb2d431419af43022bad4746
+    name: Forma 1
+    layerId: 697
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 6ec6dd1183d10884c9be7e7fbe2a1b51
+    name: Page
+    layerId: 695
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: e60b9d82b049d434a9c1dda8012d4763
+    name: Title
+    layerId: 513
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 591713b0f9e39224f9cbb92011fb65a1
+    name: Instructions
+    layerId: 512
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 41b89465ded30be4f92909cf25d176c2
+    name: Table
+    layerId: 511
+    flatten: 0
+    isGroup: 1
+    importLayer: 1
+  - spriteId: f068e0a5b024cb94f8d8bff5a2c0217e
+    name: Forma 2
+    layerId: 510
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: b2492c59f2771ef4c835cf50afa390ce
+    name: CASHIER          5
+    layerId: 509
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 30e74acc0461eb245af470cc6873af8c
+    name: POLICEMAN          4
+    layerId: 508
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 6abef533c197bc1478ed8ffa2dc1d1d2
+    name: FIREFIGHTER         3
+    layerId: 507
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: d67807d1891139c4191bcadd53b949c6
+    name: TEACHER          2
+    layerId: 506
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 4baaa926a7f169647b4f55436ecccecd
+    name: BAKER           6
+    layerId: 516
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 03eb81a595368e74aa2c4303d4c3951d
+    name: Job           Number
+    layerId: 635
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: afac1c5aae3125745a04de37c98209ac
+    name: MECHANIC          1
+    layerId: 505
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 496433825bc993141b074675202714d2
+    name: Forma 1 copy
+    layerId: 504
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: b16b7f6c57b85404e8528d06909180e0
+    name: Forma 1 copy 2
+    layerId: 503
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 4d5ca9dfdfbf5984ab28d10b3032b31a
+    name: Forma 1 copy 3
+    layerId: 502
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 740946f89976db3438557f0330698992
+    name: Forma 1 copy 4
+    layerId: 501
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: e6ebbd54286537149951f5a64e2c9be3
+    name: Forma 1 copy 5
+    layerId: 515
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 6c2f14c51ce1b7d4687cd3377c13e847
+    name: Forma 1 copy 6
+    layerId: 634
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 3c811b5d598287c418310aa6574d4936
+    name: Forma 1
+    layerId: 500
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 770dfcd9e3efa2d4c802b199a15237c6
+    name: Table 2
+    layerId: 673
+    flatten: 0
+    isGroup: 1
+    importLayer: 1
+  - spriteId: 242a8ea662845e34f8c38d1d4771988d
+    name: Forma 2
+    layerId: 672
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 66b78383aa561354fa38e3fb4f6e3a64
+    name: WIDOWED           9
+    layerId: 670
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 085e6368898ed534197b683c6ccaa5eb
+    name: MARRIED            8
+    layerId: 669
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 19c8c06cf08034f408648b4eaace6570
+    name: DIVORCED           7
+    layerId: 668
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 72be5b75f2d4dd5439eac54ed7ee47b3
+    name: Marital Status        Number
+    layerId: 666
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: abd3e68e250e77b40a419c27ef47f40f
+    name: SINGLE/ENGAGED         0
+    layerId: 665
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 89dca65865c4bfe40b31c1a7e3e9a37f
+    name: Forma 1 copy
+    layerId: 664
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: d37326a192f72c244bac172d008a4f4e
+    name: Forma 1 copy 2
+    layerId: 663
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: a41b5abf9cc99be41ad3db79ec0e7052
+    name: Forma 1 copy 3
+    layerId: 662
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 8e22fe29f5c323c4195d67ac2ac75a35
+    name: Forma 1 copy 6
+    layerId: 659
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 988be7617aeb6e9468b9690a0daa0f18
+    name: Forma 1
+    layerId: 658
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 53a15c0ecaf952a4695d1a44d413d067
+    name: Page
+    layerId: 498
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: e78a5eab7868d4a4c8cfbcfd229b62cd
+    name: Title
+    layerId: 732
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: c0074a1facdf3db43b04918c9560a023
+    name: Instructions
+    layerId: 731
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: f41c2adf421e0dd4ea436dcc8b847fbc
+    name: Page
+    layerId: 730
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 646637d58d201b04684ef0db86a441ea
+    name: Page 9 EN
+    layerId: 552
+    flatten: 0
+    isGroup: 1
+    importLayer: 1
+  - spriteId: 248d205573acd08458210c32aeb64d62
+    name: Title
+    layerId: 551
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 209cad9384505d84681b746717f6ca4f
+    name: Instructions
+    layerId: 550
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: d3e3b8bf05a66a746b80233c65116db5
+    name: Page
+    layerId: 538
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: ffc317c3a4718354aa0970bcf82d4648
+    name: Page 1 EN
+    layerId: 365
+    flatten: 0
+    isGroup: 1
+    importLayer: 1
+  - spriteId: 823585a4ebd11d64da882aa9b5cfca6d
+    name: Page 2 ES
+    layerId: 774
+    flatten: 0
+    isGroup: 1
+    importLayer: 1
+  - spriteId: da6168f400d208c428b74d376f9fb6cf
+    name: Page 2 EN
+    layerId: 402
+    flatten: 0
+    isGroup: 1
+    importLayer: 1
+  - spriteId: 8bd22af76b3296c4ebfa79fefcf0daea
+    name: Page 3 ES
+    layerId: 755
+    flatten: 0
+    isGroup: 1
+    importLayer: 1
+  - spriteId: 94a9ecce02a3b68428264efd3cdf1c71
+    name: Page 3 EN
+    layerId: 422
+    flatten: 0
+    isGroup: 1
+    importLayer: 1
+  - spriteId: 32a3b8c0478478d4ab45a7c5c958475f
+    name: Page 4 ES
+    layerId: 678
+    flatten: 0
+    isGroup: 1
+    importLayer: 1
+  - spriteId: 1922c45b10f2d424ba11a9eab9be673b
+    name: Page 4 EN
+    layerId: 451
+    flatten: 0
+    isGroup: 1
+    importLayer: 1
+  - spriteId: 38bf379f29f0e6f44bbce5eca3080b82
+    name: Page 5 ES
+    layerId: 683
+    flatten: 0
+    isGroup: 1
+    importLayer: 1
+  - spriteId: 5bdcf34bc297a504aac179c76e251dec
+    name: Page 5 EN
+    layerId: 456
+    flatten: 0
+    isGroup: 1
+    importLayer: 1
+  - spriteId: a61edb701f7c3d5438161e3b1013918e
+    name: Page 6 ES
+    layerId: 688
+    flatten: 0
+    isGroup: 1
+    importLayer: 1
+  - spriteId: 0cb206fdedb0a7948b1d2e3f696dd444
+    name: Page 6 EN
+    layerId: 471
+    flatten: 0
+    isGroup: 1
+    importLayer: 1
+  - spriteId: 8c3dbbb680384644d9b3eeac23c925dc
+    name: Page 7 ES
+    layerId: 693
+    flatten: 0
+    isGroup: 1
+    importLayer: 1
+  - spriteId: d5dbddda74011be41b2dc14818592aa1
+    name: Page 7 EN
+    layerId: 656
+    flatten: 0
+    isGroup: 1
+    importLayer: 1
+  - spriteId: 136e182097faf394995d605683b189ee
+    name: Page 8 ES
+    layerId: 728
+    flatten: 0
+    isGroup: 1
+    importLayer: 1
+  - spriteId: 29287abfb28c485488cbd277c307625e
+    name: Page 8 EN
+    layerId: 514
+    flatten: 0
+    isGroup: 1
+    importLayer: 1
+  - spriteId: 052664b5755dcef439a39ee842740a67
+    name: Page 9 ES
+    layerId: 733
+    flatten: 0
+    isGroup: 1
+    importLayer: 1
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  spriteSizeExpandChanged: 0
+  generateGOHierarchy: 1
+  textureAssetName: 
+  prefabAssetName: 
+  spriteLibAssetName: 
+  skeletonAssetName: 
+  secondarySpriteTextures: []
