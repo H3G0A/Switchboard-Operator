@@ -407,7 +407,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1452327979725679948, guid: dc8092c4fc160c04f90c1abc6b646c4d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -27.319946
+      value: -27.319824
       objectReference: {fileID: 0}
     - target: {fileID: 2000706922398456243, guid: dc8092c4fc160c04f90c1abc6b646c4d, type: 3}
       propertyPath: m_Pivot.x
@@ -491,7 +491,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3198965688865103858, guid: dc8092c4fc160c04f90c1abc6b646c4d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -27.319946
+      value: -27.319824
       objectReference: {fileID: 0}
     - target: {fileID: 3340851384028803538, guid: dc8092c4fc160c04f90c1abc6b646c4d, type: 3}
       propertyPath: m_Camera
@@ -530,6 +530,10 @@ PrefabInstance:
       propertyPath: _timer
       value: 600
       objectReference: {fileID: 0}
+    - target: {fileID: 497364385126932209, guid: e9e28da6202631f489fd66165f456f86, type: 3}
+      propertyPath: _manualCanvas
+      value: 
+      objectReference: {fileID: 1495768774}
     - target: {fileID: 1350974271666542141, guid: e9e28da6202631f489fd66165f456f86, type: 3}
       propertyPath: m_IsActive
       value: 0

@@ -2,11 +2,31 @@ using System.Collections; using System.Collections.Generic; using UnityEngine; u
 
 public class BoardController : MonoBehaviour
 {
-    [SerializeField] List<GameObject> _plucks = new(); [SerializeField] List<GameObject> _hiddenConnectors = new(); [SerializeField] List<Image> _lives = new(); List<(GameObject connector, GameObject pluck)> _activeConnectors = new(); List<(GameObject pluck, int[] labelId)> _assignedPlucks = new();
+    [SerializeField] List<GameObject> _plucks = new();
+    [SerializeField] List<GameObject> _hiddenConnectors = new();
+    [SerializeField] List<Image> _lives = new();
+    List<(GameObject connector, GameObject pluck)> _activeConnectors = new();
+    List<(GameObject pluck, int[] labelId)> _assignedPlucks = new();
 
-    [SerializeField] LineRenderer _lineRenderer; [SerializeField] Image _timerBar; [SerializeField] TextMeshProUGUI _panelText; [SerializeField] TextMeshProUGUI _dialogueText; [SerializeField] GameObject _gameOverScreen; [SerializeField] GameObject _victoryScreen; [SerializeField] AudioClip _phoneRingingAudio; [SerializeField] AudioClip _personSpeakingAudio; [SerializeField] AudioClip _correctAudio; [SerializeField] AudioClip _incorrectAudio; [SerializeField] AudioSource _introAudioSource;
+    [SerializeField] LineRenderer _lineRenderer;
+    [SerializeField] Image _timerBar;
+    [SerializeField] TextMeshProUGUI _panelText;
+    [SerializeField] TextMeshProUGUI _dialogueText;
+    [SerializeField] GameObject _manualCanvas;
+    [SerializeField] GameObject _gameOverScreen;
+    [SerializeField] GameObject _victoryScreen;
+    [SerializeField] AudioClip _phoneRingingAudio;
+    [SerializeField] AudioClip _personSpeakingAudio;
+    [SerializeField] AudioClip _correctAudio;
+    [SerializeField] AudioClip _incorrectAudio;
+    [SerializeField] AudioSource _introAudioSource;
 
-    [SerializeField] int _health = 3; [SerializeField] int _timer = 600; [SerializeField] int _roundsToWin = 5; [SerializeField] List<(GameObject pluck, int[] labelId)> _currentCallers; bool _enableBoard = false; Coroutine _countDown;
+    [SerializeField] int _health = 3;
+    [SerializeField] int _timer = 600;
+    [SerializeField] int _roundsToWin = 5;
+    [SerializeField] List<(GameObject pluck, int[] labelId)> _currentCallers;
+    bool _enableBoard = false;
+    Coroutine _countDown;
     enum City {Madrid, Lebrija, Seville, Cadiz, Toledo}  enum Home {Duplex, Flat, Bungalow, Mansion}  enum Contract {Rented, Owned}  enum Job {Mechanic = 1, Teacher = 2, Firefighter = 3, Policeperson = 4, Cashier = 5, Baker = 6}  enum MaritalStatus {Single = 0, Engaged = 1, Divorced = 7, Married = 8, Widowed = 9}  enum SocialClass {Lower, Middle, Upper}
     
     private void OnEnable() { Application.runInBackground = true; SetLabels(); NextCaller(); }
@@ -27,11 +47,20 @@ public class BoardController : MonoBehaviour
     public void RemoveConnector(GameObject go) {    (GameObject connector, GameObject pluck) tuple = _activeConnectors.Find(x => x.connector == (go));
                                                     if (tuple != (null, null)) { _activeConnectors.Remove(tuple); _hiddenConnectors.Add(go); go.SetActive(false); _lineRenderer.enabled = false; }}
 
-    public void NextCaller() {  _panelText.text = ""; _dialogueText.text = "";
-                                for (int i = 0; i < 3 - _health; i++) { _lives[i].color = Color.black; }
-                                if (_activeConnectors.Count == 2) { RemoveConnector(_activeConnectors[0].connector); RemoveConnector(_activeConnectors[0].connector); }
-                                if (_health <= 0) { _gameOverScreen.SetActive(true); gameObject.SetActive(false); return; } else if (_roundsToWin <= 0) { _victoryScreen.SetActive(true); gameObject.SetActive(false); return; }
-                                StartCoroutine(TransitionToNextCaller()); }
+    public void NextCaller() 
+    {  
+        _panelText.text = ""; _dialogueText.text = "";
+        for (int i = 0; i < 3 - _health; i++) { _lives[i].color = Color.black; }
+        if (_activeConnectors.Count == 2) { RemoveConnector(_activeConnectors[0].connector); RemoveConnector(_activeConnectors[0].connector); }
+        if (_health <= 0) { _gameOverScreen.SetActive(true); gameObject.SetActive(false); _manualCanvas.SetActive(false); return; } else if (_roundsToWin <= 0) { _victoryScreen.SetActive(true); gameObject.SetActive(false); return; }
+        
+        foreach(GameObject pluck in _plucks)
+        {
+            pluck.transform.GetChild(2).gameObject.SetActive(false);
+        }
+
+        StartCoroutine(TransitionToNextCaller()); 
+    }
 
     public void ConfirmSelection() {    if (_activeConnectors.Count < 2) return; GetComponent<AudioSource>().Stop(); _introAudioSource.Stop();
         if (!_currentCallers.Exists(x => x.pluck == _activeConnectors[0].pluck) || !_currentCallers.Exists(x => x.pluck == _activeConnectors[1].pluck)) { _health--; GetComponent<AudioSource>().PlayOneShot(_incorrectAudio, 1.3f); } else GetComponent<AudioSource>().PlayOneShot(_correctAudio, 2f);
